@@ -1,0 +1,1024 @@
+// 请先保存为 UTF-16 LE 格式再复制到游戏目录当中。
+// 请先保存为 UTF-16 LE 格式再复制到游戏目录当中。
+// 请先保存为 UTF-16 LE 格式再复制到游戏目录当中。
+
+// Radio and chat strings can have control characters embedded to set colors.  For the control characters to be used, one must be at the start of the string.
+// 无线电和聊天字符串可以通过嵌入控制字来设置颜色。要使用控制字，其必须出现在字符串的开头。
+// The control characters can be copied and pasted in notepad.
+// 控制字可以通过复制粘贴的方式来使用，且仅需复制下列括号内的空白字符。
+//  ()  = 0x02 (STX) - Use team color up to the end of the player name.  This only works at the start of the string, and precludes using the other control characters.
+// 使用队伍颜色，直到玩家名称的末尾。这只在字符串的开头起作用，且不允许使用其他控制字符。
+//  ()  = 0x03 (ETX) - Use team color from this point forward
+// 从控制字开始的后面内容，使用队伍颜色。
+//  ()  = 0x04 (EOT) - Use location color from this point forward
+// 从控制字开始的后面内容，使用位置颜色。
+//  ()  = 0x05 (ENQ) - Use achievement color from this point forward
+// 从控制字开始的后面内容，使用成就颜色。
+//  ()  = 0x01 (SOH) - Use normal color from this point forward
+// 从控制字开始的后面内容，使用常规颜色。
+
+"lang" 
+{ 
+"Language" "SChinese" 
+"Tokens" 
+{ 
+
+"ADVOPTS_badge_comp"			"其他竞赛徽章"		
+
+"fof_xbow_pickup_wrong_team"	"这把爆炸弓与你的队伍颜色不匹配，无法使用"
+
+"FoF_Loadout_panel"				"按 %equipmenu% 打开出装菜单"
+
+"FoF_VoteReplayCourse"			"%s1 想重玩本图。"
+"FoF_VoteChangeCourse" 			"%s1 想更换难度。"
+"FoF_VoteNextCourse"			"%s1 想玩下一张地图。"
+
+"FoF_VotekickResult"			"%s1 被投票逐出服务器，时长为 %s2 小时。"
+
+"FoF_1st"						"st" // 1st place
+"FoF_2nd"						"nd" // 2nd place
+"FoF_3rd"						"rd" // 3rd place
+"FoF_xth"						"th" // 4th and higher
+
+"GCMenu_Shootout"				"交火模式"
+
+"FoF_Weapon_Stats_TotalDmg"		"总伤害：%s1"			
+"FoF_Weapon_Stats_TotalFrags"	"总杀敌数量：%s1"
+"FoF_Weapon_Stats_Dmg-Frags"	"每次杀敌的平均伤害：%s1"
+"FoF_Weapon_Stats_FragsMinunte"	"每分钟平均杀敌数：%s1"
+"FoF_Weapon_Stats_Acc"			"精准度：%s1"
+"FoF_Weapon_Stats_BaseDmg"		"基础武器伤害"
+"FoF_Weapon_Stats_Assist"		"总辅助次数：%s1 (每次杀敌当中有：%s2)"
+"FoF_Weapon_Stats_BaseAcc"		"基础武器精准度 (站立状态) "
+
+"FoF_option_keys_title"			"基本"
+"FoF_weapon_fists"				"拳头"
+"Fof.ui.advanced"				"高级"
+
+"Ranked_Mode_Title"				"黄昏镖客：赛季 %s1q"
+"Ranked_Mode_End"				"在 %s1 天后结束"
+
+"Ranked_Mode_Info"				"1. 解决敌人来获得金钱，一对一还是团战都可以！\n\n2. 杀掉有钱的玩家能给你更高的奖赏，哪怕只是助攻也可以。\n  奖励将与每次杀敌所获得的罪行成比例，所以先解决掉弱的敌人吧。\n\n3. 在每场游戏开始，你需要缴纳一些入场费，富有的玩家交的入场费更多。\n\n4. 顶尖玩家 (1-100) 将会在下一个赛季期间拥有计分板徽章。"
+
+"Cash_Removed_SelfHarm"			"$%s1 由于自我伤害而移除"
+
+"LaunchMenu_Ranked"				"排位赛"
+
+"FoF.SearchBar"					"搜索"
+
+"stock_browser_warning"			"                  警告！\n服务器窗口内所展示的服务器可能会含有欺诈信息，或显示错误的玩家数量以及延迟。\n"
+
+"LaunchMenu2_Unranked"			"交火模式"
+"LaunchMenu2_Unranked2"			"团队竞技模式"
+"LaunchMenu2_Modded"			"改版 (Modded) 的模式"
+"LaunchMenu2_Custom"			"自定义模式"
+
+"Options_VQuality"  			"视频质量"
+
+"Nemesis_new_killer"			"你正在控制 %s1"
+"FoFNemesis_Bonus"				"复仇：+%s1 罪行"
+
+"Nemesis_new"					"%s1 正在控制着你"
+"Nemesis_kill"					"你已向 %s1 复仇。奖励：%s2 罪行"
+
+"MOTD_background_button"		"留在背景"
+	
+"revolver_tut_fanfailed"		"失败！你太慢了……"
+"revolver_tut_fanning"			"速射部分"
+"revolver_tut_outoftime"		"时间到！回去以重试"
+"revolver_tut_here"				"到这儿来"
+"revolver_tut_success"			"成功！进行下一阶段"
+"revolver_tut_timeleft"			"时间限制"
+"revolver_tut_shoot2"			"让我们来射击更多目标"
+"revolver_tut_pick2"			"捡起另一把左轮枪"						
+"revolver_tut_shoot"			"开始射击"
+"revolver_tut_pick1"			"捡起左轮枪"
+"revolver_tut_welcome"			"开始教程"
+
+"ADVOPTS_ch_switch_crosshair"	"交换左右手武器准星"
+
+"GELM_Hint_Clash2"				"作为执法人员，搜索并杀死歹徒 (黑色西装) ，并跟随他们的足迹"
+"GELM_Hint_Clash1"				"作为歹徒，存活并杀死执法人员 (蓝色西装) 以获取分数并赢得游戏"
+"GELM_Hint_Start"				"获得中高级武器成为亡命之徒，然后到达安全区以避免受到伤害"
+
+"Help_Tracking"					"让你看到敌人的足迹，以方便追踪他们"
+"Item23c"						"足迹追踪"
+
+"AccSkillLabel_1b"				"次要射击模式不再是速射，而是精确瞄准。精确瞄准能给予更好的准确度和移动速度。\n左手单持武器时，精准度与使用双持技能时相比，保持不变。\n双持武器时精准度与平时相比有所下降。"
+
+"ScoreBoard_Comp"				"地图胜利：达到 %s1 点数"
+
+"FoFPenalty_Comp_Score"			"首领被击败！%s1 罪行"
+
+"AccSkillLabel_3"				"增强速射模式：比左手模式下的速射有更高的精准度，由点射切换到速射状态下的速度加快，并且比其他技能下速射的移动速度要快。\n作为代价，点射状态和双持状态下准确度会下降很多。"
+"Item44"						"扇形展开"
+
+"ELM_Reward_FFA"				"终点奖励：+%s1 罪行"
+
+"Item3"							"史密斯威森无击锤x2"
+
+"Gatling_Help2"					"操作加特林时，使用鼠标来瞄准，%attack% 来射击"
+"Gatling_Help"					"切换到拳头，靠近加特林并按下 %use% 来操作"
+
+"br_warning_safezone"			"在安全区的内圈，无法捡起武器"
+
+		
+
+"CW_SafeZone_Warning"			"前往安全区！"
+
+"ADVOPTS_hide_votemenu_no" 		"关闭"		
+"ADVOPTS_hide_votemenu_always" 	"总是"
+"ADVOPTS_hide_votemenu_alive" 	"仅当活着时"
+
+"ADVOPTS_hide_votemenu" 		"隐藏服务器投票菜单"
+
+"ADVOPTS_zoom_sens_ratio_sharps" "夏普狙击枪瞄准镜开启时的灵敏度乘数"
+
+"Help_Gentleman2"		"在你杀死敌人之前嘲弄敌人「我们打平了！」，敌人被你死后你会获得+1罪行。在你杀死敌人之前嘲弄敌人「出来单挑！」,敌人被你拳头杀死后会获得+4罪行。如果你在和敌人「单挑」的时候用了除拳头外的其他武器对敌人造成伤害，你将会受到-5的罪行惩罚。你在使用上述技能的时候你的敌人必须在你的准星附近并且不能离你太远，如果你使用该技能成功时你的准星上会出现提示；只有手枪、左轮手枪、步枪、拳头可以使上述技能生效。\nPS：①只有手枪、左轮手枪、步枪、拳头可以使上述技能生效。②在使用「我们打平了！」技能之后，无论你用哪种方式对死之前的敌人造成伤害，只要最后符合手枪、左轮手枪、步枪、拳头来杀死敌人都可以获得+1罪行。③在「出来单挑！」使用之前，你可以用任何方式对敌人造成伤害而不影响使用之后的拳击加分。"
+
+"Course_End_Completion"	"关卡完成度：%s1%"
+
+"Course_Vote_Quit"		"退出关卡"
+"Course_Vote_Next"		"下一张地图"
+"Course_Vote_New"		"选择新关卡"
+"Course_Vote_Replay"	"重玩本关卡"
+
+"Course_End_Win"		"关卡完成！"
+"Course_End_Fail"		"失败"
+
+"Item25"				"大力士"
+"Help_HeavyLoad"		"敌人被物体抛掷到会被击退，并且手中的武器会掉落；你手中的物体不会因为敌人的射击而掉落。"
+
+"Cash_Stolen_Warning"	"%s1 从你身上偷走了 %s2！"
+
+"Help_Pickpocket"		"在背后用拳头敲击敌人时可以偷取敌人没有拿出来的武器 (放在腰间枪套里未拿出的武器) 。如果敌人没有其他多余的武器，你将会偷取到一些钱。\n作为代价，你只能偷取到你正常收入的一半，并且敌人会通过你手上的黑色手帕来辨认出你是一个扒手！"
+"Item24b"				"扒手"
+
+"Global_Rank_Supported"	"本服务器支持全球排名"
+
+"Warning_CustomMode"	"注意：本服务器的自定义游戏模式并非 FoF 官方开发。"
+
+"ADVOPTS_ch_rifles"		"使用步枪时也显示准星"
+
+"Crate_Price_Warning"	"没有足够的金钱来购买武器"
+
+"Crate_Price_Discount"	" (优惠)"
+"Crate_Price_Premium"	" (附加费用)"
+"Crate_Price_Stock"		" (原价供应)"
+
+"Item18"	"斯宾塞连珠卡宾枪"
+
+"challenge_melee_intro2"	"呆在桥上，直到结束挑战！"
+"challenge_melee_intro1"	"踢死10名近战敌人来完成挑战，按下 %speed% 来踢。温馨提示: 时机和预判是关键！"
+
+"challenge_dynamite_defuse"	"温馨提示 1: 红色雷管可以通过 %use% 来熄灭。2: 黑色炸药不能被熄灭，但他们能像踢火药桶一样踢回去！操作十次来完成这个挑战。"
+
+"tut_interaction_25"	"666，你竟然做到了！恭喜"
+"tut_interaction_24"	"通过踢火药桶来处理掉那些家伙吧"
+"tut_interaction_23"	"踢火药桶是一种致命的攻击方式。把一个火药桶踢进火焰就可以点燃它 (会对周围造成巨大伤害|小心火烛233)" 
+"tut_interaction_22"	"到篝火旁，还有最后一件事情要做" 
+"tut_interaction_21"	"可见，那些站着不动的家伙就没有机会了！" 
+"tut_interaction_20"	"用踢炸药桶的方式来弄死那三个敌人"
+"tut_interaction_19"	"干得好！现在去外面实践一下"
+"tut_interaction_18"	"按下 %speed% 键来踢出火药桶"
+"tut_interaction_17"	"抓起火药桶并且以踢出的方式来集中力量并且造成可观的伤害"
+"tut_interaction_16"	"教程不能用这种方式完成，抱歉"
+"tut_interaction_15"	"通过 %attack% 可以轻轻丢出去"
+"tut_interaction_14"	"切换成空手状态 %slot1% 抓起一个炸药桶，然后按下 %use% 键即可抓起"
+//"tut_interaction_13"	"原来是当地的膜法师正在囤积火药桶... 233"
+//"tut_interaction_12"	"安拉胡阿克巴，去教堂吧"
+//"tut_interaction_11"	"明智的选择... 哇，那是游戏中最牛逼的武器之一"
+"tut_interaction_13"	"瞧瞧你发现了什么？原来是当地的牧师正在囤积火药桶…… 233"
+"tut_interaction_12"	"愿上帝能原谅你，去教堂吧。"
+"tut_interaction_11"	"明智的选择……不，等下！那是游戏中最垃圾的武器！"
+"tut_interaction_10"	"持续按着 %use% 键来打开武器箱子"
+"tut_interaction_9"		"去找一个武器箱子！"
+"tut_interaction_7"		"你偷了最后一个威士忌酒瓶，不足为奇，它被很好的藏着。话说，如果我是你，我会给自己一个武器"
+"tut_interaction_6"		"按下 %use% 键来偷镇子里你认为安全的威士忌酒瓶吧"
+"tut_interaction_5"		"去商店并且找到威士忌酒瓶"
+"tut_interaction_4"		"爽的一批，但是这种生不如死的感觉太难受了，喝一些威士忌来回复吧"
+"tut_interaction_3"		"按下E键 %use% 来开/关门"
+"tut_interaction_2"		"进厕所"
+"tut_interaction_1"		"你内急了，需要赶快行动"
+
+"global_rank_not_enough_fragsmin"	"全球排位警告：每分钟杀敌数不足 (当前 %s2 最小 %s1)"
+"global_rank_not_enough_playtime"	"全球排位警告：游戏时间不足(当前 %s2 最小 %s1)"
+
+"NoBots_Vote_Left"			"尚票 %s1 票来把所有的机器人来从服务器中踢出"
+"NoBots_Vote_Done"			"投票成功！当前服务器现在已无机器人"
+"NoBots_Poll_Hint"			"在聊天框中说 nobots 来禁用机器人"
+
+"Highlighted_Online"		"名玩家在线"
+
+"Help_PortableWhiskey"		"使用便携式威士忌来治愈旁边的队友，当治愈队友时你的生命值也会回复。注意只有当武器切换至威士忌且不使用时它才会回复"
+
+"CourseStats_NotCompleted"	"尚未完成过"
+"CourseStats_Completed"		"已完成 %s1 次"
+
+"Challenge_Gold"	"挑战奖章：黄金"
+"Challenge_Silver"	"挑战奖章：白银"
+"Challenge_Bronze"	"挑战奖章：青铜"
+"Challenge_Slow"	"太慢了，未获得奖章"
+
+
+
+"revolver_tut_stg3_10"		"按 %slot2% 来另外一把左手手枪"
+
+"revolver_tut_stg3_9"		"最后一个提示：和机器人练习来完善你的技能"
+
+"revolver_tut_stg3_8"		"按下切换握持键 %+alt1% 来把你右手上的枪换到左手上"
+
+"revolver_tut_stg3_7a"		"左手专精技能赋予所有模式中最佳的单手左轮手枪准确性，但是双持时的准确率会受到很大的惩罚削减，建议不要在使用左手技能时双持！"
+
+"revolver_tut_stg3_6a"		"按 %slot2% 来拿出左手的手枪, 注意到右侧左轮手枪的准确度下降了吗？"
+"revolver_tut_stg3_6b"		"用你右手的的左轮手枪射远处的目标"
+
+"revolver_tut_stg3_5a"		"按 %slot2% 键来掏出左手的左轮"
+"revolver_tut_stg3_5b"		"用任一枪射击旁边的目标"
+
+"revolver_tut_stg3_4a"		"当仅使用一把左轮手枪时，右手专精技能提供比默认双持技能更好的精确度。但如果你双持，那么两把都会比「默认双持技能」精度更差"
+
+"revolver_tut_stg3_3a"		"按 %slot2% 键来掏出左手的左轮。请注意，每种左轮手枪都有自己的基本准精度"
+"revolver_tut_stg3_3b"		"用任意一把枪射击靶子"
+
+"revolver_tut_stg3_2a"		"双手技能意味着你可以使用双持左轮手枪并且双持时精准度较高，并同时获得它们的「默认」准确度。虽然「默认」精度的射程相对较短"
+
+"revolver_tut_stg3_1"		"第3部分：手枪精确度模式。有4种技能组影响你使用手枪时的最终准确性：双手、右手、左手和扇形展开"
+
+"revolver_tut_success"		"成功！继续下一阶段"
+
+"revolver_tut_stg2_7"		"在时间用完之前打破3个靶子"
+
+"revolver_tut_stg2_6"		"失败！你太慢了……"
+
+
+"revolver_tut_stg2_5a"		"大多数左轮手枪支持称为「速射」的次要开火模式，它比普通模式快，但不太精确，伤害也略低一些"
+"revolver_tut_stg2_5b"		"按下%attack2%（默认鼠标右键）直到进入速射模式，然后按下%attack%（默认鼠标左键）来开火。说「是」来继续"
+
+"revolver_tut_stg2_4"		"时间用尽！回去重新开始此教程"
+
+"revolver_tut_stg2_3"		"成功！继续速射阶段"
+
+"revolver_tut_stg2_2a"		"没有必要站立不动来进行准确的射击，按住 %walk% 键来边走边射，如果你的速度太低门将会关闭"
+
+"revolver_tut_stg2_2b"		"步行时破坏目标 —不要在红色区域内停下！—"
+
+"revolver_tut_stg2_1a"		"第2部分，准确地移动和射击：步行和速射"
+
+"revolver_tut_use"		"在一把武器旁按 %use% 来装备它"
+
+"revolver_tut_goback"		"回到原处"
+
+"revolver_tut_draw_secondary"	"按下 %slot2% 来掏出你的第二把左轮"
+
+"revolver_tut_stg1_6a" 		"干得好，现在从桌子后面拿第二把左轮"
+"revolver_tut_stg1_6b"		"捡起另一把左轮 (按 %use% 键捡起) "
+
+"revolver_tut_stg1_5a"		"提示：在选项/键盘/高级中启用「快速武器开关」 (默认) ，或者选择武器后按 %attack% 来拔出它"
+"revolver_tut_stg1_5b"		"按下 %slot3% 来拔出你的左轮"
+
+"revolver_tut_stg1_4a" 		"失败！你的时间用完了"
+"revolver_tut_stg1_4b"		"装填你的左轮手枪以重新开始"
+
+"revolver_tut_stg1_3b"		"按 %attack% (默认为鼠标左键) 和 %attack2% (默认为鼠标右键) 来开火"
+"revolver_tut_stg1_3a"		"在时间用完前摧毁全部目标"
+
+"revolver_tut_stg1_2b" 		"说「是」来继续 (按 %voicealert% 键打开快速聊天菜单然后按 1) "
+	
+"revolver_tut_stg1_2a"		"双持左轮手枪可以通过按下鼠标左键和右键来开火，记住瞄准头部来获得两倍伤害"
+
+"revolver_tut_stg1_reload"	"按 %reload% 键以给你的枪重新上弹"
+
+"revolver_tut_stg1_1b" 		"按鼠标左键来射击目标"
+
+"revolver_tut_stg1_1a"		"左轮有两种射击模式：普通 (鼠标左键) 精度高，适合中距离交火；速射 (鼠标右键) 适合近距离交锋。\n提示：射击头部来获得双倍伤害"
+
+"ADVOPTS_hp_posx"		"血量水平位置 (0-100)"
+"ADVOPTS_hp_posy"		"血量垂直位置 (0-100)"
+
+"FoF_Full_Games"		"已省略 %s1 个满员服务器"
+
+"FoF_Overweight2"	"警告: 超重 %s1% ，请丢掉武器来加快移动速度！"
+
+"LaunchMenu_Coop"			"合作战役"
+
+"LaunchMenu_Singleplayer"		"单人游戏"
+"LaunchMenu_Teams"				"多人游戏"
+
+"LaunchMenu_Tutorials"			"教程"
+"LaunchMenu_Challenges"			"挑战"
+"LaunchMenu_Missions"			"任务"
+
+"Unreliable_Connection_Warning"	"警告：你的网络连接存在问题 (延迟较高或丢包率较高) ，会受到移动速度惩罚，建议您选择其他服务器游戏或检查自己的网络连接"
+
+"tutorial_whiskey"				"威士忌能增加你的生命值，靠近一瓶威士忌然后按 %use% 来饮用它"
+
+"Rem_Army"						"雷明顿1858军用型"
+
+"FoF_Course_AwaitForRespawn"	"战役进行中，请等待复活"
+
+"FoF_Course_Editor"			"关卡/战役编辑器"
+"FoF_Course_Editor_Help"	"0-9: 选择 / 鼠标左键: 生成 / 鼠标右键: 编辑面板 / 鼠标滚轮: 滚动 / DEL 移除全部 / ALT 保存-载入 / INSERT 帮助"
+
+"GCMenu_Course"				"战役模式"
+
+"GameCreate_Courses_NotSel"	"自动选择"
+"GameCreate_Courses"		"地图循环"
+
+"fof_hint_ai_editor"	"按 %fof_ai_editor% 来打开AI编辑器"
+
+"FoF_AI_Editor_Help"	"数字键: 选择 / 左键: 生成 / 右键: 切换编辑 / 鼠标滚轮: 滚动 / DEL 移除所有已防止的物品 / ALT 物品放置模式"
+
+"FoF_AI_Editor"			"游戏内建AI编辑器"
+
+"ADVOPTS_Smoke_Trails"	"枪口烟丝"
+
+"TopBar_Workshop"		"创意工坊"
+"UGC_Name"				"已订阅项目 (点击来在创意工坊中打开) "
+
+"Warning_High_Ping"		"警告：你的延迟或丢包率太高，你可能因此被踢出该服务器！！"
+
+"ADVOPTS_badge"			"记分牌徽章"
+"ADVOPTS_badge_normal"	"全球排位徽章"
+"ADVOPTS_badge_special"	"特殊徽章 (FoFCL联赛、开发团队) "
+
+"Global_Rank_Level9"	"等级：传说 (与全球第一相差 %s1, 再获得 %s2 点即可升级) "
+"Global_Rank_Level8"	"等级：王牌 (与全球第一相差 %s1, 再获得 %s2 点即可升级) "
+"Global_Rank_Level7"	"等级：大枪 (与全球第一相差 %s1, 再获得 %s2 点即可升级) "
+"Global_Rank_Level6"	"等级：独行者 (与全球第一相差 %s1, 再获得 %s2 点即可升级) "
+"Global_Rank_Level5"	"等级：枪手 (与全球第一相差 %s1, 再获得 %s2 点即可升级) "
+"Global_Rank_Level4"	"等级：恶徒 (与全球第一相差 %s1, 再获得 %s2 点即可升级) "  // form of notorious criminal
+"Global_Rank_Level3"	"等级：游侠 (与全球第一相差 %s1, 再获得 %s2 点即可升级) " 
+"Global_Rank_Level2"	"等级：啃咬者 (与全球第一相差 %s1, 再获得 %s2 点即可升级) " // lowly criminal
+"Global_Rank_Level1"	"等级：流浪者 (与全球第一相差 %s1, 再获得 %s2 点即可升级) " 
+"Global_Rank_Level0"	"等级：草根 (与全球第一相差 %s1, 再获得 %s2 点即可升级) " // derogatory form of farmer
+
+"ELM_Survivor_Protect"	"残兵余勇：+%s1 罪行"
+
+"VS_T_Finished"			"没有更多的决斗战了"
+
+"ADVOPTS_Decals"		"贴图效果 (反光、血液等) "
+"ADVOPTS_Shadows"		"动态阴影"
+
+"Global_Rank_Not_Supported"		"服务器不支持全球排位"
+
+"VS_Alive_Health"	"敌人血量: @%s1"
+
+"VS_Match_DrawZero"	"无分数平局, 失去了 %s1 点排位积分"
+"VS_Match_Draw"		"平局, 无积分/失分"
+
+"VS_Match_Winner_Points"	"获得了 %s1 点排位积分"
+"VS_Match_Loser_Points"		"失去了 %s1 点排位积分"
+
+"VS_Rank_Forecast"	"%s1 <获得/失去> %s2"
+"VS_Round_Result"	"%s1 - %s2"
+"VS_Round_Counter"	"第 %s1 回合"
+"VS_Match_Presentation"	"%s1 对 %s2"
+"GCMenu_VS"		"决斗模式"
+
+
+"KillCam_Msg"		"%s1 @%s2 使用 %s3 杀了你"	// player name, hp and weapon used for kill
+
+"Global_Rank_NetLoss"	"全球排位：你在本次游戏中失去了 %s1 点积分"
+"Global_Rank_NetGain"	"全球排位：你在本次游戏中获得了 %s1 点积分 (+%s2 积分) "
+"Global_Rank_Info"	"你的 %s1 全球排位为 %s2 (%s3 分) "
+
+"ELM_Spawn_Notice3"	"玩法说明：先被全歼的一方失败"
+"ELM_Survived_Round"	"撑过了整局：+%s1 罪行值"
+"ELM_Survivor_Kill"	"击杀残兵余勇：+%s1 罪行值"
+
+"TopBar_LeaderBoards"	"全球排行榜"
+
+// Advanced options
+"ADVOPTS_MOTD_disabled" 		"禁用MOTD HTML模式"
+"ADVOPTS_Show_fps" 			"显示帧率"
+"ADVOPTS_Skybox_enable" 		"启用3D天空盒子"
+"ADVOPTS_Improved_Impact_effects" 	"提升反射效果"
+"ADVOPTS_FF_crosshair" 			"瞄准友军时十字准星"
+"ADVOPTS_Crosshair_Scale" 		"十字准星大小"
+"ADVOPTS_Crosshair_thickness" 		"准星粗细"
+"ADVOPTS_Crosshair_dot" 		"绘制准星中心点"
+"ADVOPTS_Draw_Accuracy" 		"绘制准星精度变化"
+"ADVOPTS_Show_nt_ks_meter" 	"显示罪行值 / 连杀奖励"
+"ADVOPTS_OFF" 			"关闭"
+"ADVOPTS_Full" 			"完全-罪行榜/连杀数/击杀奖励"
+"ADVOPTS_Only_nt" 		"仅击杀奖励"
+"ADVOPTS_Only_ks" 		"仅连杀数"
+"ADVOPTS_both" 			"连杀数+击杀奖励"
+"ADVOPTS_map_timer" 		"总是显示地图计时器"
+"ADVOPTS_num_hp" 		"只显示数字HP值 (禁用左下角角色图标) "
+"ADVOPTS_auto_reload"		"启用武器自动装弹"
+"ADVOPTS_rightclick_toggled" 	"单击切换速射模式 (不选则要按住) "
+"ADVOPTS_zoom_sens_ratio" 	"当瞄准模式开启时的灵敏度倍数"
+"ADVOPTS_muzzle_flashlight"	"渲染枪口火焰"
+"ADVOPTS_players_taunt"		"播放其他玩家的嘲笑声"
+"ADVOPTS_killcam"		"启用击杀镜头 (如果可能) "
+"ADVOPTS_ALL" 			"全部"
+"ADVOPTS_far"			"仅远距离击杀"
+"ADVOPTS_weap_leaning"		"低精度时的武器倾斜效果"
+
+
+"Item3c" 			"狄林杰袖珍手枪"
+"Item23"			"快速拔枪"
+
+"Help_Handgun_Exp"		"拔枪速度加快 20-30%%，只适用于手持枪械——手枪、左轮手枪、短管霰弹枪 "
+
+"Item24"			"贪得无厌"
+
+"Help_Insatiable"		"醉酒后清醒加快 30%% 并且超重限制高 30%% (能在不减速的情况下带更多更重的枪械) "
+
+"Help_Dynamite_Belt"		"这种炸药威力更小但是更易引爆。注意：别一顿乱扔，可能会炸到自己。"
+
+"Item17"			"炸药腰带"
+
+"tp_extra_time"			"额外时间已追加"
+
+"tp_abandoned_draw_vig"		"村民武装保护了他们的终点区 (+3 分) "
+"tp_abandoned_draw_desp"	"土匪保护了他们的终点区 (+3 分) "
+
+"Item15"			"便携瓶装威士忌"
+
+"Item4a"			"温彻斯特M1866弹管式连发枪"
+
+"Cash_Added_Whiskey"		"奖励 (提供威士忌) 增加了 $%s1"
+
+"BB_WhiskeyArea"		"威士忌区 %s1m."
+"BB_Notice_WhiskeyArea"		"新的威士忌区出现了"
+
+"dynamite_forced_drop"		"警告：不能长时间握持引燃的炸药！"
+
+"FoF_Loadout_BigMode"		"完全模式"
+"FoF_Loadout_QuickMode"		"快速模式"
+
+"FoF_Toggle_UI"			"隐藏 HUD"
+
+"map_coastal_msg3"		"土匪输掉了仓库，必须撤退到洞里"
+"map_coastal_msg2"		"村民武装拿下了市场，接下来就是土匪的仓库"
+"map_coastal_msg1"		"土匪必须阻止村民武装推动小车"
+
+
+"fof_hint_bb_gift"		"武器馈赠：将一把装填好的武器丢在一名需要武器的队友 (白色图标) 身边来获得罪行值奖励"
+
+"FoF_Weapon_Gift"		"武器馈赠：+%s1 罪行值"
+
+"MutePlayerHintOFF"		"语音聊天已关闭，按 <%s1> 来打开"
+"MutePlayerHintON"		"语音聊天已开启，按 <%s1> 来关闭"
+
+"intro_title_tp_score"		"团队积分如何计算"
+"intro_tp_score_cart"		"推车地图：车离目标终点越近得分越高,终点对敌对双方来说恰恰相反"
+"intro_tp_score_zonecap"	"占领地图：进攻方只能通过站到敌军占领区内获得得分，防御方只能通过击杀敌人获得得分"
+"intro_tp_score_scale"		"回合得分以 X/10 的形式显示，X 代表还要获得的分数，10 代表所要达到的总分"
+
+"fof_hint_bb_buy2"		"使用特殊购买区域来获得更便宜的武器！"
+
+"bb_buyzone_sale_gold"		"在这里用标准价格买所有武器"
+"bb_buyzone_sale_red"		"在这里用标准价格买蓝/红箱子中的武器"
+
+"Awards_Team_Score"		"%s1 获胜 (%s2) "
+"Awards_Team_Score2"		"%s1 位居第二 (%s2) "
+
+"Awards_GoodBadYou"		"The Good, The Bad and You"
+
+"Awards_Local_Pos"		"您：第 %s1 - %s2 罪行"
+"Awards_Local"			"您的：%s1"
+
+"Awards_NotorietyMinute"	"最大杀敌/分钟"
+"Awards_Killstreak"		"最多连杀"
+"Awards_Accuracy"		"最高准确度"
+"Awards_Drunkard"		"最多饮酒回血量"
+
+
+"Item26"			"砍刀"
+
+"TopBar_Stats"			"个人统计"
+
+"bb_selfdisarm_fists_hint"	"当自我解除武装的时候按 %+attack% 来赤手空拳搏斗"
+
+"PresetMenu_Edit_Button"	"出装编辑器"
+"PresetMenu_Edit_Button_On"	"选择一个出装来编辑或按「空格键」来创建一个新的"
+
+
+"TopBar_Res"			"资源"
+"TopBar_Bug"			"Bug反馈"
+"TopBar_Notes"			"更新备注"
+"TopBar_FoFCL"			"竞赛"
+
+"TP_SwitchSides_Notice"		"下一轮开始时双方将交换阵营！"
+
+"FoF_FriendName"		"好友"
+"FoF_Friends_Games"		"%s1 名好友"
+
+"FoF_BestScoreToWin"		" (要赢下这张地图所需要的分数：%s1) "
+"FoF_RoundsToPlay"		"地图进度：%s1 / %s2 轮"
+
+"FoF_Servers_Title"		"%s1 个高度推荐的社区服务器"
+"FoF_Servers_Warning"		"    ========> 点击一个服务器来加入"
+"FoF_Servers_Mode"		"游戏模式"
+"FoF_Servers_Players"		"玩家"
+
+"GC_Team_Number"		"团队总数"
+
+"FoF_Votekick_Hint"		"按 %votekick% 来打开投票踢出菜单"
+
+"FoF_Votekick_Menu"		"投票踢出菜单"
+"Votekick_player_voted"		"%s1 想要踢掉 %s2，还需要%s3 票。按 %votekick% 来跟票。"
+
+
+
+"FoF_Capturing_Progress"	"完成度：%s1%"
+
+"GCMenu_ELM"			"歼灭模式"
+
+"CH_Accuracy_Stats_Dual" 	"精确度 %s1% / %s2%"
+"CH_Accuracy_Stats" 		"精确度 %s1%"
+
+"UseHelpText"			"按下 %+use% 以使用"
+
+"bb_public_enemy_warning"	"最高通缉！任何击杀你的人都会获得额外奖励。你杀敌的奖励也会提升…"
+"BB_PublicEnemy_Obj"		"最高通缉 %s1m."
+
+"LastMan"		"最后一人"
+"BandidoRound"		"土匪获得胜利"
+"RangerRound"		"护林队获得胜利"
+
+// =================
+
+"FoF.VoiceEnable"	"开启全部语音"
+"FoF.VoiceDisable"	"关闭全部语音"
+
+"intro_aim_rifle_2"	"不用机械瞄具射击很难打中敌人，这通常不是个好主意。"
+"intro_aim_rifle_1"	"步枪具有机械瞄具，可以用来进行非常准确的射击，按住次要攻击键来进行瞄准。" 
+"intro_aim_rifle_title"	"如何用步枪准确射击"
+
+"intro_aim_rev_2"	"大多数的手枪可以进入特殊的高速连射模式，以精度为代价换取射速。"
+"intro_aim_rev_1"	"一般的射击模式具有最高的精确度，适用于除了贴身距离外的一切情况。"
+"intro_aim_rev_title"	"如何用手枪准确射击"
+
+"intro_aim_mov_3"	"3. 快跑和跳时你的武器完全没有准头，即使在贴身距离，也有可能打不中目标！"
+"intro_aim_mov_2"	"2. 慢走在近距离交火中可以提供足够的精确度"
+"intro_aim_mov_1"	"1. 站住不动或蹲下时精确度最高"
+"intro_aim_mov_title"	"移动时如何准确射击"
+
+"intro_aim_ch_2"	"准星越小，你打中敌人的概率就越高，子弹分布也越密集。示意图："
+"intro_aim_ch_1"	"准星的大小提示了此时武器的精确度"
+"intro_aim_ch_title"	"动态准星"
+
+"intro_aim_title"	"如何准确射击"
+"intro_title_learn"	"现在学习："
+
+// ================
+
+"intro_dm_surv3"	"3. 试试不同种类的武器和攻击方式的组合，高级武器配合低级武器或者近战武器使用，对敌人的最后一击决定所提升的罪行。"
+"intro_dm_surv2"	"2. 高级的武器在提升罪行方面没有什么优势，但是更容易让你保持连杀数。"
+"intro_dm_surv1"	"1. 连续杀敌对于提升罪行很重要，在地图上搜寻酒瓶以回复生命值。"
+"intro_dm_surv_title"	"枪战生存常识："
+"intro_dm_noto3"	"2. 连杀：每多杀一人，你的武器每次杀敌提升的罪行就会 +1，最多可以提升至原本罪行的二倍。"
+"intro_dm_noto2"	"1. 低级武器：那些不太好用，伤害也不高的武器，每次杀敌提升的罪行值都很多。"
+"intro_dm_noto1"	"快速增加罪行的诀窍："
+"intro_dm_obj2"		"杀死其它玩家就能提升罪行，杀敌的方法越不方便，提升的罪行越多"
+"intro_dm_obj1"		"大开杀戒，不过，若想登上恶贯满盈的积分榜首位，你还需要一些技巧。"
+
+"intro_obj_pushcart" 	"推车模式任务目标：推着装满炸药的矿车，在时间耗尽之前到达敌方基地。"
+"intro_obj_zonecap"	"占点模式任务目标：根据阵营的不同，防守或进攻夺取标记的地点。"
+
+"intro_title_tp_cash"	"金钱系统简介："
+"intro_tp_cash_cart"	"推车模式：所有玩家在游戏中的某个时间点获得金钱，比如推车到达了指定的地点，或是重置重生时间时，所有玩家获得的金额相同。"	
+"intro_tp_cash_zonecap"	"占点模式：每回合开始时获得金钱，金额根据上一局的表现 (罪行) 来决定"
+
+"intro_teamplay_gm"		"团队游戏模式"
+"intro_shootout_gm"		"枪战游戏模式"
+
+"intro_howto"			"基础入门："
+"intro_gm_bb"			"赏金模式"
+"intro_primary_obj"		"主要任务目标："
+"intro_tip_killarmed"		"杀掉有武装的玩家，不要攻击无武装的玩家"
+"intro_label_armed"		"有武装"
+"intro_label_disarmed"		"无武装"
+"intro_title_warning"		"警告："
+"intro_title_secondary_obj"	"次要任务目标："
+"intro_tip_cash"	"赚钱来购买更好的武器，并提升本队的分数"
+"intro_tip_teamcash"	"队伍分数：本队玩家获得的金钱的总和，任何方式不能减少这个分数"
+"intro_title_getcash"	"如何赚钱："
+"intro_tip_cash1"	"1. 杀死敌方玩家，你杀死的敌方玩家所拥有的杀敌数越高，你得到的赏金越多"
+"intro_tip_cash2"	"2. 完成运送赃物的任务"
+"intro_tip_cash3"	"3. 捡起地上的武器，在解除武装区域卖掉"
+"intro_title_tips"	"专家建议："		
+"intro_tip_buy"		"1. 利用特殊购买区域，购买七折甚至半价的武器"
+"intro_tip_disarmed"	"2. 利用无武装的状态来安全抵达目的地，将敌人送进监狱，或是无伤获取武器"
+
+
+// ===========
+
+"FoF_ScoreBoard_Cash"			"金钱"
+
+"PresetMenu_Warning_CannotBuy"		"已超过出生购买时间或不在购买区域内" 
+
+"fof_hint_bb_unarmed"			"攻击无武装的玩家将被罚款，付不起罚款时就会「进监狱」"
+"fof_hint_bb_loot"			"捡起赃物并送到指定地点以获得赏金"
+"fof_hint_bb_loot2"			"杀死赃物运送者可以获得额外赏金，在他们的脚下有绿色的 $ 标记"
+"fof_hint_bb_spawn"			"只有在复活后的数秒内或是指定的购买区域内才能购买武器"
+"fof_hint_bb_selfdisarm"		"进入解除武装区域将瞬间把你的武器换成钱，并且使你成为「自我解除武装的玩家」"
+"fof_hint_bb_selfdisarm2"		"自我解除武装的玩家受到攻击时能收到赔偿金"
+
+"bb_selfdisarm_kill_warning"		"杀死自我解除武装的玩家 (圆顶礼帽) 会失去全部的金钱并入狱"
+"bb_lootpickup_warning"			"捡起赃物的时候身上得有把家伙"
+"bb_jail_pickup_warning"		"进了监狱的玩家无论怎样都不能获得武器"
+
+"BB_UnarmedTimeLeft"			"无武装"
+"BB_JailTimeLeft"			"入狱"
+
+"BB_Notice_BuyArea"			"新的购买区域出现了"
+"BB_Notice_DisarmArea"			"新的解除武装区域出现了"
+"BB_Notice_LootPickArea"		"新的战利品出现了"
+"BB_Notice_LootDropArea"		"新的战利品运送目标出现了"
+
+"BB_BuyArea"				"购买区域 %s1m."
+"BB_DisarmArea"				"解除武装区域 %s1m."
+"BB_LootPickArea"			"捡起赃物 %s1m."
+"BB_LootDropArea"			"运送赃物 %s1m."
+
+"FoFLootScore"				"运送赃物: +%s1 罪行"
+"Cash_Fine_Unarmed"			"罚款 (攻击无武装的玩家) : -$%s1 金钱"
+"Cash_Added_SelfDisarmed"		"自我解除武装 +$%s1 金钱"
+"Cash_Added_LootDeliver"		"运送赃物 +$%s1 金钱"
+"Cash_Added_SelfDisarm"			"出售武器 +$%s1 金钱"
+"Cash_Added_Kill"			"杀敌 +$%s1 金钱"
+"Cash_Added_Spawn"			"复活 +$%s1 金钱"
+
+"InBuyArea"				"按下 %equipmenu% 来购买"
+
+"Cash_LimitReached"			"已到达上限，不再增加金钱"
+"Cash_Added"				"奖励：+$%s1 金钱"
+
+"GCMenu_BB"				"赏金模式"
+
+// =======================
+
+"ACHIEVEMENT_HATSHOT_NAME" 		"脱帽致敬"
+"ACHIEVEMENT_HATSHOT_DESC" 		"在不造成伤害的情况下让敌人对你脱帽"
+
+"fof_hint_hatshot"	"打掉敌人的帽子可以增加罪行，但不造成伤害"
+
+"FoFDropHatBonus"	"击落帽子: +%s1 罪行"
+
+"HandgunSwitchWarning"	"相同武器不能左右互换"
+
+"FoFCaptureNotoriety"	"占领：+%s1 罪行"
+
+"FoF_CapIcon"		"占领 - %s1m."
+"FoF_DefIcon"		"防守 - %s1m."
+
+"FoF_MVP"		"%s1 罪孽最为深重 (%s2)"
+
+"PresetMenu_Warning_OutBuyZone"	"你已离开购买区域！"
+
+"fof_hint_randomshooter" "奔跑和跳跃时你的武器完全没有准头"
+
+"TeamsScrambled"	"队伍重组"
+
+"fof_hint_autobuy"	"按下 %autobuy% 自动购买装备"
+"fof_hint_rebuy"	"按下 %rebuy% 购买上一次使用的装备"
+
+"FoF_Autobuy"		"自动购买装备 (团队模式)"
+"FoF_Rebuy"		"购买上一次使用的装备 (团队模式)"
+
+"FoF_Capturing"		"正在占领 x%s1"
+"FoF_Cap_Blocked"	"占领被阻止"
+
+"GCMenu_TP"		"团队模式/任务模式"
+
+// ****** CHAT
+
+"HL2MP_Chat_AllSpec"			"*观察* %s1 ：%s2"
+"HL2MP_Chat_All"			"%s1：%s2"
+"HL2MP_Chat_Team"			"(团队)- %s1：%s2"
+"HL2MP_Chat_Spec"			"(观察者)- %s1： %s2"
+
+"Vote_NotPossible" 	"未到允许投票的时间\n"
+"Vote_DM"		"%s1 想要更换游戏模式，需要 %s2 票"
+"Vote_Suggest"		"在聊天对话框内键入「changemode」以更换游戏模式"
+
+"FoFSkillStreakTotal"	"连杀数：%s1"
+"FoFKillScore"		"杀敌：+%s1 罪行"
+"FoFKillScore_Bonus"	"杀敌：+%s1 罪行 (+%s2 连杀奖励)"
+"FoFGentleman_Bonus"	"绅士风度：+%s1 额外罪行"
+"FoFGentleman_Malus"	"有损绅士形象：罪行 %s1"
+"FoFPenaltyScore"	"死相不雅：罪行 %s1"
+"FoFAssistScore"	"助攻：+%s1 罪行"
+
+"Achievement_Earned"		"%s1 解锁了成就 %s2"
+
+// MISC
+
+"Playerid_sameteam"		"队友：%s1 生命值：%s2"
+"Playerid_diffteam"		"敌人：%s1"
+"Playerid_noteam"		"%s1 生命值：%s2"
+
+"Game_connected"		"%s1 已连接"
+"Game_disconnected"		"%s1 离开了游戏"
+
+"MuteList_Title"		"点击玩家以屏蔽其语音"
+
+// ***** HINTS / STATS
+
+"FoF_Hint_Key"		"按下 <%s1> 以继续"
+"FoF_Stat_Key"		"按下任意键以继续"
+
+"FoF_Stat_Killstreak"	"新的连杀记录：%s1。 打破了之前的最好成绩 %s2！"
+"FoF_Stat_SurvivalTime"	"新的生存时间记录：%s1 秒。 打破了之前的最好成绩 %s2！"
+"FoF_Stat_MaxDmg"	"新的伤害承受记录：%s1。打破了之前的最好成绩 %s2！"
+"FoF_Stat_MaxWhiskey"	"新的喝酒记录：%s1。打破了之前的最好成绩 %s2！"
+"FoF_Stat_MaxWeapons"	"新的武器使用数量记录：%s1. 打破了之前的最好成绩 %s2！"
+
+"fof_hint_headshot" 	"爆头可造成双倍伤害"
+"fof_hint_chestshot"	"射击胸部可造成 1.3 倍伤害"
+"fof_hint_worldkill" 	"将敌人踹入环境伤害中杀死，仍然计入你的罪行"
+"fof_hint_dynamite1" 	"射击点着的炸药可以立刻将其引爆"
+"fof_hint_dynamite2"	"黑色炸药的威力几乎是红色炸药的两倍"
+"fof_hint_dynamite3"	"切换成拳头并对着点着的红色炸药按 %+use% 键，可以将其熄灭" 
+"fof_hint_dynamite4"	"当你手里有黑色炸药的时候，按下 %+attack2% 可以轻轻扔出炸药，投掷时间更短。"
+"fof_hint_dynamite5"	"点燃的炸药在手中拿着越久，扔出后爆炸的越快"
+"fof_hint_dynamite6"	"受到爆炸伤害时，你携带的炸药就会爆炸，即使你没拿在手上也会爆炸"
+"fof_hint_grab"		"选择拳头时按下 %+use% 可以抓起物品，再按下 %+attack% 或 %+speed% 扔出去砸人"
+"fof_hint_walk"		"按下 %+walk% 来小步走，以提升移动时射击的精确度"
+"fof_hint_drop"		"拿的武器越多走路就越慢，按下 %+zoom% + %+attack% 或 %+attack2% 来丢弃武器"
+"fof_hint_reload"	"老式武器装弹很慢，捡起地上还有子弹的武器 (绿色或黄色) 继续战斗"
+"fof_hint_melee"	"近战攻击仅在击中头部时获得伤害加成"
+"fof_hint_healing"	"喝酒可以回复生命值，按下 %+use% 来饮用"
+"fof_hint_healing2"	"打开金箱子时，你的生命会回复一部分"
+"fof_hint_fanning"	"手枪快速连射模式以精度为代价提升射速。按住 %+attack2% 不放并点击 %+attack% 快速射击"
+"fof_hint_double"	"双管猎枪有次要攻击模式，只需要按住 %+attack2%，移动的时候也可以精确射击了。"
+"fof_hint_fists"	"用指虎正面攻击敌人可以打落其武器"
+
+"fof_hint_walker"	"柯尔特的1847年式沃克转轮手枪是黑火药时代最大的手枪，各种意义上的最大"
+"fof_hint_henry"	"「拿手枪的碰上拿步枪的，拿手枪的那个肯定要玩儿完」——《荒野大镖客》"
+"fof_hint_peacemaker" 	"柯尔特单动转轮手枪陆军版，绰号「决斗者」，或者简单地叫它柯尔特 .45，被称为「赢得整个西部的手枪」"
+
+
+"ACHIEVEMENT_TRAITOR_NAME" 		"好朋友"
+"ACHIEVEMENT_FRAG_ROBBER_NAME" 		"抢人头"
+"ACHIEVEMENT_ROBIN_HOOD_NAME"		"百步穿脑"
+"ACHIEVEMENT_HURT_PRIDE_NAME" 		"这就是斯巴达"
+"ACHIEVEMENT_DUTCH_COURAGE_NAME" 	"酒后之勇"
+"ACHIEVEMENT_DEFUSER_NAME" 		"拆弹专家"
+"ACHIEVEMENT_CHAIN_REACTION_NAME" 	"荒野炸弹客"
+"ACHIEVEMENT_UNFORGIVEN_NAME" 		"不可饶恕"
+"ACHIEVEMENT_DEAD_THAN_ALIVE_NAME" 	"十死无生"
+"ACHIEVEMENT_DETONATOR_NAME" 		"迅雷不及掩耳"
+"ACHIEVEMENT_OVERWEIGHTED_NAME" 	"能堪重负"
+"ACHIEVEMENT_OVERPOWERED_NAME" 		"枪多势众"
+"ACHIEVEMENT_NOBODY_NAME" 		"我叫无名"
+"ACHIEVEMENT_RANCHER_NAME" 		"无名小卒"
+"ACHIEVEMENT_GUNFIGHTER_NAME" 		"枪战高手"
+"ACHIEVEMENT_LEGEND_NAME" 		"我是传奇"
+
+"ACHIEVEMENT_TRAITOR_DESC" 		"空拳揍死几个 Steam 好友"
+"ACHIEVEMENT_FRAG_ROBBER_DESC" 		"干掉被附近的某个玩家重伤的敌人"
+"ACHIEVEMENT_ROBIN_HOOD_DESC"		"用弓箭远距离爆头"
+"ACHIEVEMENT_HURT_PRIDE_DESC" 		"将敌人踹入环境伤害中杀死"
+"ACHIEVEMENT_DUTCH_COURAGE_DESC" 	"喝醉后杀死敌人"
+"ACHIEVEMENT_DEFUSER_DESC" 		"试着捡起点燃的炸药"
+"ACHIEVEMENT_CHAIN_REACTION_DESC" 	"用炸药的连锁反应杀死敌人"
+"ACHIEVEMENT_UNFORGIVEN_DESC" 		"终结 7 人以上的连杀的敌人"
+"ACHIEVEMENT_DEAD_THAN_ALIVE_DESC" 	"在生命值 15 以下时杀死敌人"
+"ACHIEVEMENT_DETONATOR_DESC" 		"射击点燃的炸药杀死敌人"
+"ACHIEVEMENT_OVERWEIGHTED_DESC" 	"当你已超重 100% 时杀死敌人"
+"ACHIEVEMENT_OVERPOWERED_DESC" 		"双持沃克手枪杀死敌人"
+"ACHIEVEMENT_NOBODY_DESC" 		"第一次杀人"
+"ACHIEVEMENT_RANCHER_DESC" 		"完成 25 场战斗"
+"ACHIEVEMENT_GUNFIGHTER_DESC" 		"完成 100 场战斗"
+"ACHIEVEMENT_LEGEND_DESC" 		"完成 500 场战斗"
+
+// ***** GAME CREATE PANEL
+
+"FoF_Mode"			"模式"
+
+"Bot_Allowed"			"允许机器人"
+"Bot_Amount_0"			"不允许机器人"
+"Bot_Amount_1"			"智能添加机器人"
+"Bot_Skill"			"机器人水平"
+"Bot_Skill_0"			"烂" 
+"Bot_Skill_1"			"稀松平常" 
+"Bot_Skill_2"			"有点技术" 
+"Bot_Skill_3"			"很有技术"
+"Bot_Skill_4"			"优秀" 
+"Bot_Skill_5"			"混合" 
+"Bot_Skill_6"			"由脚本决定"
+"Bot_Skill_Dyn"			"智能"
+"Bot_CustScript"		"自定义脚本"
+
+"GCMenu_FullList"		"全部地图列表"
+"GCMenu_Duration"		"游戏时间 (分钟) "
+"GCMenu_Teamplay"		"启用团队"
+"GCMenu_Obj"			"启用任务目标"
+
+
+// MOD OPTIONS
+
+"SliderMax"	"高"
+"SliderMin"	"低"
+"CHAlpha"	"Alpha 通道"
+"CHBlue"	"蓝"
+"CHGreen"	"绿"
+"CHRed"		"红"
+
+"Options_Fire"  		"火焰质量"
+"Options_Color"			"准星颜色"
+"Options_Smoke" 		"枪口烟雾效果"
+
+"Options_FOV"			"模型视场"
+"ViewmodelFOV"			"武器模型视场"
+"Options_BodyAwareness"		"第一视角使用世界模型"
+
+// KEY BIND PANEL
+
+"Switch_Revolver_Hand"		"把手枪换到另一只手上"
+"TeamSelection"			"选择队伍"
+"EquipmentSelection"		"选择装备"
+"ObjectivesScreen"		"任务目标界面"
+"Voicecommands"			"语音命令菜单"
+"Voicealerts"			"语音警告菜单"
+"Voicetaunts"			"语音嘲讽菜单"
+"DropActiveWeapon"		"丢弃手中的武器"
+"Valve_Use_Items"		"使用 (开箱子，捡武器，喝酒) "
+
+"FoF_KickKey"			"踹"
+"FoF_MuteMenu"			"语音屏蔽菜单"
+
+// NON GAMEPLAY FEATURES
+
+"SCRAMBLE_POLL"			"投票重组团队"	
+"Scramble_Poll_Title"		"打乱重分？"
+"FoF_Yes"			"赞成"
+"FoF_No"			"反对"
+
+"FoF_NextMapVote"		"投票选择下一张地图"
+"FoF_MapVote"			"地图 - 总计投票"
+
+"AutomaticBalancing"		"自动平衡：一名玩家已切换队伍"
+"TeamBalancing"			"自动平衡：你现在身处另一队"
+"FullTeam"			"此队已满！"
+
+
+// ***** SCOREBOARD
+
+"Scoreboard_Server"		"%s1"
+"ScoreBoard_SpectatorFoF"	"观察者：%s1 - %s2"
+"ScoreBoard_Players_FoF"	"玩家：%s1"
+	
+"ScoreBoard_Players"		"%s1 - 玩家：%s2  分数：%s3"
+"ScoreBoard_Spectator"		"%s1"
+"ScoreBoard_Deathmatch"		"死亡竞技"
+"ScoreBoard_Players_DM"		"%s1 - 玩家：%s2"
+
+"ScoreBoard_Timer"		"剩余时间 %s1:%s2"
+
+"PlayerNot"			"罪行"
+"PlayerFrags"			"杀人"
+
+"MutePlayerHint"		"按下 <%s1> 打开语音屏蔽菜单"
+
+
+// ***** GAMEPLAY RELATED
+
+"VigWin"		"村民武装 取得了最终胜利"
+"DespWin"		"亡命之徒 取得了最终胜利"
+"VigRound"		"本回合 村民武装 获胜"
+"DespRound"		"本回合 亡命之徒 获胜"
+
+"NoTeamWins"		"无人获胜"
+
+
+"Duel_GameTied"			"=== 僵局：决斗决定胜者 ==="
+"Duel_Starting"			"=== 开始决斗 ==="
+"Duel_NoOneWins"		"无人在决斗中获胜！"
+"Duel_GetReady"			"准备：不要瞄准"
+"Duel_Draw"			"拔枪！！！"
+"Duel_TooSoon"			"%s1 瞄准太早了"
+"Duel_Winner"			"%s1 获胜"
+"Duel_Tie"			"为什么不做个朋友？"
+
+
+// ***** VOICE COMMANDS PANEL
+
+"Command1"	"1. 冲啊！！！！"	
+"Command2"	"2. 前进"	
+"Command3"	"3. 撤退"	
+"Command4"	"4. 任务目标"
+"Command5"	"5. 掩护"	
+"Command6"	"6. 等等"
+"Command7"	"7. 转移战利品"
+"Command8"	""
+"Command9"	""
+"Command10"	""
+
+"Alert1"	"1. 是"
+"Alert2"	"2. 否"
+"Alert3"	"3. 发现敌人"
+"Alert4"	"4. 需要喝酒" 
+"Alert5"	"5. 正在装弹"
+"Alert6"	"6. 没有敌人"
+"Alert7"	"7. 需要武器"
+"Alert8"	""
+"Alert9"	""
+"Alert10"	""
+
+"Taunt1"	"1. 大笑"
+"Taunt2"	"2. 我们打平了！"
+"Taunt3"	"3. 挑衅"
+"Taunt4"	"4. 吹牛"
+"Taunt5"	"5. 狼嚎"
+"Taunt6"	"6. 懦夫！"
+"Taunt7"	"7. 出来单挑！"
+"Taunt8"	"8. 我的钱！"
+"Taunt9"	"9. 闭嘴！"
+"Taunt10"	""
+
+
+// ***** NEW DM EQUIPMENT
+
+"Help_Knuckles"			"提升拳头的伤害，使敌人减速更多，视角晃动更大。\n正面击中敌人时还能打落他们手中的武器。"
+
+"Help_Boots"			"踹人时伤害更高，敌人会被踹飞的更远。"
+
+"Help_Knife"			"比拳头伤害更高，范围更大。按下 %+attack2% 作为飞刀投掷，伤害更巨大。"
+
+"Help_WThrow"			"扔出手枪砸敌人，伤害与武器重量有关。\n按下 %+zoom% + %+attack% 或 %+attack2%来进行。\n提示：蓄力条达到一半时扔出可造成最大伤害，蓄力条满后扔出会导致武器穿模。"
+
+"Help_Dynamite"			"中等爆炸伤害，按住 %+attack% 可以减少出手后的引信时间。按下 %+attack% 远距离投掷。射击点燃的炸药可以立刻引爆。当你身上携带炸药时，受到爆炸伤害时你身上的炸药就会爆炸，你拿不拿在手上都一样。如果你这一回没有炸到人，死后下一回只会给你一个炸药。\n当然，如果你手里拿的是黑色炸药的话，按下 %+attack% 远距离投掷，按下 %+attack2% 快速轻丢，按下 %+attack2% + %+duck% 从地上滚出去。"
+
+"Item3b" 			"双持狄林杰袖珍手枪"
+"Item1b"			"三把飞刀"
+"Item0b"			"黑色炸药"
+"Item41"			"擅长右手"
+"Item42"			"擅长左手"
+"Item43"			"双持"
+"Item16b"			"绅士风度"
+"Item14"			"手枪投掷"
+"Item34"			"硬头靴子"
+"Item13b"			"短管霰弹枪"
+"Item34b"			"指虎"
+	
+"Equipment_Aim_Skill"		"手枪技能"
+"Equipment_Primary"		"主武器"
+"Equipment_Secondary"		"副武器"
+
+"AccSkillLabel_0"		"在双持的时候精准度最高。\n作为代价，单持及连发时的精准度都十分平庸。"
+
+"AccSkillLabel_2"		"左手单持时精度极高\n作为代价，右手单持、连发、双持状态下，精准度都会下降。"
+
+
+// ***** EQUIPMENT
+
+"ItemVolcanic"	"火山牌连珠手枪"
+"Item0"		"两枚炸药"
+"Item2"		"柯尔特1851海军型"
+"Item4"		"亨利杠杆步枪"
+"Item5"		"史密斯单发卡宾枪"
+"Item6"		"双管猎枪"
+"Item11"	"长弓"
+"Item12"	"夏普式精确步枪"
+"Item19"	"斧头"
+"Item21"	"柯尔特 决斗者手枪"
+"Item30"	"堑壕枪"
+
+"Item31a"	"史密斯韦森三号手枪"
+"Item32"	"柯尔特 沃克手枪"
+"MaresLeg" 	"马腿子短步枪"
+
+
+"Equipment_Ammo"		"弹药"
+"Presets1"			"预设"
+
+"Equipment_Title"	"装备选择"
+"Equipment_hint"	"装备改动在重生后生效。"
+"Equipment_cat1"	"短距离"
+"Equipment_cat2"	"中距离"
+"Equipment_cat3"	"长距离"
+"Equipment_cat4"	"弹药"
+"Equipment_cat5"	"其它"
+"Equipment_cat6"	"已选择:"
+"Equipment_cat7"	"帽子"
+
+
+"Equipment_Hint1"	"罪行乘数"
+"Equipment_Hint2"	"威力"
+"Equipment_Hint3"	"精确度"
+
+"FoF_Save"			"保存"
+"FoF_Delete"			"删除"
+
+// ***** PRESET MENU
+
+"PresetsSelection"		"预设选择菜单"
+"PresetMenu_Title"		"选择装备"
+"PresetMenu_Edit"		"按 %+equipmenu% 选择装备"
+"PresetMenu_Filter"		"过滤："
+"PresetMenu_Filter_No"		"无"
+"PresetMenu_Filter_Short"	"短距离"
+"PresetMenu_Filter_Medium"	"中距离"
+"PresetMenu_Filter_Long"	"长距离"
+"PresetMenu_Warning"		"改动在重生后生效"
+
+}
+}
