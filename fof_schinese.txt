@@ -115,7 +115,7 @@
 
 "ELM_Reward_FFA"				"终点奖励：+%s1 罪行"
 
-"Item3"							"史密斯威森无击锤x2"
+"Item3"							"两把无击锤手枪"
 
 "Gatling_Help2"					"操作加特林时，使用鼠标来瞄准，%attack% 来射击"
 "Gatling_Help"					"切换到拳头，靠近加特林并按下 %use% 来操作"
