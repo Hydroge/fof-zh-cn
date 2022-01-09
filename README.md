@@ -5,6 +5,10 @@ Right now I am cooperating with others to make this translation better.
 
 **Version: 20220108**, before the update that will add a brand new gun.
 
+*WARNING: BEFORE MOVING THIS TRANSLATION TO YOUR `./fof/resource/`DIRECTORY, YOU MUST CONVERT THIS `.TXT` FILE INTO "UTF-16 LE" FORMAT.*
+
+*警告：在你将文件移动到 `./fof/resource/` 目录之前，你必须将该 `.txt` 文件转化为「UTF-16 LE」格式。*
+
 Changelog:
 - 复仇系统的润色：从「仇人」改为「控制」
 - 「史密斯威森无击锤手枪」改为「两把无击锤手枪」
