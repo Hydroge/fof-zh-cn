@@ -7,7 +7,15 @@ Right now I am cooperating with others to make this translation better.
 
 *WARNING: BEFORE MOVING THIS TRANSLATION TO YOUR `./fof/resource/`DIRECTORY, YOU MUST CONVERT THIS `.TXT` FILE INTO "UTF-16 LE" FORMAT.*
 
+这是 Fistful of Frags （火药瘾君子）游戏的简体中文翻译文件。
+
+**版本是 20220108**，是未来的新增一把毛瑟枪（？）的更新之前的版本。
+
 *警告：在你将文件移动到 `./fof/resource/` 目录之前，你必须将该 `.txt` 文件转化为「UTF-16 LE」格式。*
+
+これは Fistful of Frags の中国語の簡体字の翻訳です。
+
+**バージョンは、20220108で**、来ていないモーゼル銃を付け加えるアップデートの前のもあります。
 
 Changelog:
 - 复仇系统的润色：从「仇人」改为「控制」
