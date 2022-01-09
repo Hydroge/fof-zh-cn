@@ -204,8 +204,8 @@
 "global_rank_not_enough_fragsmin"	"全球排位警告：每分钟杀敌数不足 (当前 %s2 最小 %s1)"
 "global_rank_not_enough_playtime"	"全球排位警告：游戏时间不足(当前 %s2 最小 %s1)"
 
-"NoBots_Vote_Left"			"尚票 %s1 票来把所有的机器人来从服务器中踢出"
-"NoBots_Vote_Done"			"投票成功！当前服务器现在已无机器人"
+"NoBots_Vote_Left"			"尚需 %s1 票来把所有的机器人从服务器中踢出"
+"NoBots_Vote_Done"			"投票成功！服务器现在已无机器人"
 "NoBots_Poll_Hint"			"在聊天框中说 nobots 来禁用机器人"
 
 "Highlighted_Online"		"名玩家在线"
