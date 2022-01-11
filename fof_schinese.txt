@@ -40,7 +40,7 @@
 "FoF_3rd"						"rd" // 3rd place
 "FoF_xth"						"th" // 4th and higher
 
-"GCMenu_Shootout"				"交火模式"
+"GCMenu_Shootout"				"死斗模式"
 
 "FoF_Weapon_Stats_TotalDmg"		"总伤害：%s1"			
 "FoF_Weapon_Stats_TotalFrags"	"总杀敌数量：%s1"
@@ -68,12 +68,12 @@
 
 "stock_browser_warning"			"                  警告！\n服务器窗口内所展示的服务器可能会含有欺诈信息，或显示错误的玩家数量以及延迟。\n"
 
-"LaunchMenu2_Unranked"			"交火模式"
+"LaunchMenu2_Unranked"			"死斗模式"
 "LaunchMenu2_Unranked2"			"团队竞技模式"
-"LaunchMenu2_Modded"			"改版 (Modded) 的模式"
+"LaunchMenu2_Modded"			"改版模式 (Modded)"
 "LaunchMenu2_Custom"			"自定义模式"
 
-"Options_VQuality"  			"视频质量"
+"Options_VQuality"  			"游戏画质"
 
 "Nemesis_new_killer"			"你正在控制 %s1"
 "FoFNemesis_Bonus"				"复仇：+%s1 罪行"
@@ -132,7 +132,7 @@
 
 "ADVOPTS_hide_votemenu" 		"隐藏服务器投票菜单"
 
-"ADVOPTS_zoom_sens_ratio_sharps" "夏普狙击枪瞄准镜开启时的灵敏度乘数"
+"ADVOPTS_zoom_sens_ratio_sharps" "夏普狙击枪瞄准镜开启时的灵敏度倍数"
 
 "Help_Gentleman2"		"在你杀死敌人之前嘲弄敌人「我们打平了！」，敌人被你死后你会获得+1罪行。在你杀死敌人之前嘲弄敌人「出来单挑！」,敌人被你拳头杀死后会获得+4罪行。如果你在和敌人「单挑」的时候用了除拳头外的其他武器对敌人造成伤害，你将会受到-5的罪行惩罚。你在使用上述技能的时候你的敌人必须在你的准星附近并且不能离你太远，如果你使用该技能成功时你的准星上会出现提示；只有手枪、左轮手枪、步枪、拳头可以使上述技能生效。\nPS：①只有手枪、左轮手枪、步枪、拳头可以使上述技能生效。②在使用「我们打平了！」技能之后，无论你用哪种方式对死之前的敌人造成伤害，只要最后符合手枪、左轮手枪、步枪、拳头来杀死敌人都可以获得+1罪行。③在「出来单挑！」使用之前，你可以用任何方式对敌人造成伤害而不影响使用之后的拳击加分。"
 
@@ -144,7 +144,7 @@
 "Course_Vote_Replay"	"重玩本关卡"
 
 "Course_End_Win"		"关卡完成！"
-"Course_End_Fail"		"失败"
+"Course_End_Fail"		"关卡失败！"
 
 "Item25"				"大力士"
 "Help_HeavyLoad"		"敌人被物体抛掷到会被击退，并且手中的武器会掉落；你手中的物体不会因为敌人的射击而掉落。"
@@ -409,7 +409,7 @@
 "ADVOPTS_num_hp" 		"只显示数字HP值 (禁用左下角角色图标) "
 "ADVOPTS_auto_reload"		"启用武器自动装弹"
 "ADVOPTS_rightclick_toggled" 	"单击切换速射模式 (不选则要按住) "
-"ADVOPTS_zoom_sens_ratio" 	"当瞄准模式开启时的灵敏度倍数"
+"ADVOPTS_zoom_sens_ratio" 	"步枪机瞄时的灵敏度倍数"
 "ADVOPTS_muzzle_flashlight"	"渲染枪口火焰"
 "ADVOPTS_players_taunt"		"播放其他玩家的嘲笑声"
 "ADVOPTS_killcam"		"启用击杀镜头 (如果可能) "
