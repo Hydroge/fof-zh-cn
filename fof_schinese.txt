@@ -124,8 +124,8 @@
 
 "Item3"							"两把无击锤手枪"
 
-"Gatling_Help2"					"操作加特林时，使用鼠标来瞄准，%attack% 来射击"
-"Gatling_Help"					"切换到拳头，靠近加特林并按下 %use% 来操作"
+"Gatling_Help2"					"操作加特林机枪或大炮时，使用鼠标来瞄准，%attack% 来射击"
+"Gatling_Help"					"切换到拳头，靠近加特林机枪或大炮并按下 %use% 来操作"
 
 "br_warning_safezone"			"在安全区的内圈，无法捡起武器"
 
