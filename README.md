@@ -5,13 +5,13 @@
 This is the Simplified Chinese translation of the video game Fistful of Frags.
 Right now I am cooperating with others to make this translation better.
 
-**Version: 20220108**, before the update that will add a brand new gun.
+**Version: 20220321**, which is of "Parkour Update".
 
 *WARNING: BEFORE MOVING THIS TRANSLATION TO YOUR `./fof/resource/`DIRECTORY, YOU MUST CONVERT THIS `.TXT` FILE INTO "UTF-16 LE" FORMAT.*
 
 这是 Fistful of Frags （火药瘾君子）游戏的简体中文翻译文件。
 
-**版本是 20220108**，是未来的新增一把毛瑟枪（？）的更新之前的版本。
+**版本是 20220321**，是跑酷更新的版本。
 
 *警告：在你将文件移动到 `./fof/resource/` 目录之前，你必须将该 `.txt` 文件转化为「UTF-16 LE」格式。*
 
@@ -31,3 +31,4 @@ Right now I am cooperating with others to make this translation better.
 |fof_english.txt|FoF 英文原文|
 |fof_schinese.txt|FoF 改良中文翻译|
 |fof_schinese_original.txt|FoF 中文原版翻译，用作对照|
+|compare.txt|自己用来作更新前后英文原文的变动，从而决定自己的汉化应该往哪个方向改进|
