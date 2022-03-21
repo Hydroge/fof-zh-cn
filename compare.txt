@@ -12,6 +12,13 @@
 "Tokens" 
 { 
 
+"Item23e"						"Jumpmaster"
+"Help_Walljump"					"Some impulse is gained when performing a wall-jump, look into any direction before wall-jumping to redirect that impulse. A kick inflicted mid-air after wall-jumping will deal considerably more damage. Fall damage is decreased noticeably"
+
+"Help_Slide"					"Maintain high speed for a while and then press crouch key %+duck% for a slide. Certain large weapons or carriying many small weapons may stop you from gaining enough speed. Also consider that jumping or strifing shortly before a slide will reduce impulse severely. Handguns draw faster while sliding."
+
+"Item23d"						"Slide"
+
 "ADVOPTS_badge_comp"			"Other competition badges"		
 
 "fof_xbow_pickup_wrong_team"	"This explosive bow can't be used by your team"
@@ -107,7 +114,7 @@
 "Item3"							"Hammerless x2"
 
 "Gatling_Help2"					"Use mouse to aim Gatling Gun and fire by pressing %attack%"
-"Gatling_Help"					"Select fists and press %use% near a Gatling Gun to control it"
+"Gatling_Help"					"Select fists and press %use% near a Gatling Gun or cannon to control it"
 
 "br_warning_safezone"			"Cannot pick a weapon within the safe zone's inner circle"
 
