@@ -1,0 +1,1009 @@
+// Radio and chat strings can have control characters embedded to set colors.  For the control characters to be used, one must be at the start of the string.
+// The control characters can be copied and pasted in notepad.
+//  = 0x02 (STX) - Use team color up to the end of the player name.  This only works at the start of the string, and precludes using the other control characters.
+//  = 0x03 (ETX) - Use team color from this point forward
+//  = 0x04 (EOT) - Use location color from this point forward
+//  = 0x05 (ENQ) - Use achievement color from this point forward
+//  = 0x01 (SOH) - Use normal color from this point forward
+
+"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{ 
+
+"ADVOPTS_badge_comp"			"Other competition badges"		
+
+"fof_xbow_pickup_wrong_team"	"This explosive bow can't be used by your team"
+
+"FoF_Loadout_panel"				"Press %equipmenu% to open this menu again"
+
+"FoF_VoteReplayCourse"			"%s1 voted for replay course"
+"FoF_VoteChangeCourse" 			"%s1 voted for change course"
+"FoF_VoteNextCourse"			"%s1 voted for next map"
+
+"FoF_VotekickResult"			"%s1 have been votekicked by other players. Ban duration is %s2 hours"
+
+"FoF_1st"						"st" // 1st place
+"FoF_2nd"						"nd" // 2nd place
+"FoF_3rd"						"rd" // 3rd place
+"FoF_xth"						"th" // 4th and higher
+
+"GCMenu_Shootout"				"Shootout"
+
+"FoF_Weapon_Stats_TotalDmg"		"TOTAL DAMAGE: %s1"			
+"FoF_Weapon_Stats_TotalFrags"	"TOTAL FRAGS: %s1"
+"FoF_Weapon_Stats_Dmg-Frags"	"AVG DAMAGE PER FRAG: %s1"
+"FoF_Weapon_Stats_FragsMinunte"	"AVG FRAGS PER MINUTE: %s1"
+"FoF_Weapon_Stats_Acc"			"AVG ACCURACY: %s1"
+"FoF_Weapon_Stats_BaseDmg"		"BASE WEAPON DAMAGE"
+"FoF_Weapon_Stats_Assist"		"TOTAL ASSISTS: %s1 (%s2 per kill)"
+"FoF_Weapon_Stats_BaseAcc"		"BASE WEAPON ACCURACY (STANDING STILL)"
+
+"FoF_option_keys_title"			"FoF Menu Keys"
+"FoF_weapon_fists"				"Fists"
+"Fof.ui.advanced"				"ADVANCED"
+
+"Ranked_Mode_Title"				"FOR A FEW DOLLARS MORE: Season %s1q"
+"Ranked_Mode_End"				"Ends in %s1 days"
+
+"Ranked_Mode_Info"				"1. Get your dollars by taking care of enemies, one by one or in large groups, as you prefer!\n\n2. Richer players will get you an higher reward, even assisting others in their cleansing gets you some $. \n   Rewards will be proportional to notoriety obtained for each frag, so aim for weaker attacks. \n\n3. An entry fee deducted from your future earnings has to be paid at the start of each game, richer players'll pay higher fees\n\n4. Top players (1-100) will get scoreboard badges that last for the entire next season.
+
+"Cash_Removed_SelfHarm"			"$%s1 removed due self harm"
+
+"LaunchMenu_Ranked"				"Ranked Multiplayer"
+
+"FoF.SearchBar"					"Search..."
+
+"stock_browser_warning"			"                  WARNING!\nThe stock server browser may contain deceptive servers that could redirect you, report wrong player count or ping.\n"
+
+"LaunchMenu2_Unranked"			"Stock Shootout"
+"LaunchMenu2_Unranked2"			"Stock Teamplay"
+"LaunchMenu2_Modded"			"Modded Gameplay"
+"LaunchMenu2_Custom"			"Custom Modes"
+
+"Options_VQuality"  			"Visual Quality"
+
+"Nemesis_new_killer"			"You are nemesis to %s1"
+"FoFNemesis_Bonus"				"NEMESIS BONUS: +%s1 notoriety points"
+
+"Nemesis_new"					"%s1 is your new nemesis"
+"Nemesis_kill"					"%s1 is no longer your nemesis. Reward: %s2 notoriety"
+
+"MOTD_background_button"		"Leave in background"
+	
+"revolver_tut_fanfailed"		"FAILED! Too slow..."
+"revolver_tut_fanning"			"Fanning Stage"
+"revolver_tut_outoftime"		"Out of time! Go back to restart this trial"
+"revolver_tut_here"				"MOVE HERE"
+"revolver_tut_success"			"SUCCESS! Proceed to next stage"
+"revolver_tut_timeleft"			"TIME LEFT"
+"revolver_tut_shoot2"			"Let's shoot more targets"
+"revolver_tut_pick2"			"Pick another revolver"						
+"revolver_tut_shoot"			"Start shooting"
+"revolver_tut_pick1"			"Pick revolver"
+"revolver_tut_welcome"			"Start tutorial"
+
+"ADVOPTS_ch_switch_crosshair"	"Switch primary/secondary crosshairs"
+
+"GELM_Hint_Clash2"				"As lawman, search and kill outlaws (black suit), follow their footprints"
+"GELM_Hint_Clash1"				"As outlaw, stay alive and kill lawmen (blue outfit) to score points and win the game"
+"GELM_Hint_Start"				"Get mid or high tier weapons to become a desperado, then reach safezone to avoid getting harmed"
+
+"Help_Tracking"					"Allows to see footprints from enemies, so they can be tracked"
+"Item23c"						"Tracking"
+
+"AccSkillLabel_1b"				"Secondary fire mode grants increased accuracy and mobility instead fast firing (fanning).\nGrants slightly worse accuracy than ambidextrous in single right-handed mode\nLarge accuracy penalty for dual wield mode."
+
+"ScoreBoard_Comp"				"MAP VICTORY: REACH %s1 POINTS"
+
+"FoFPenalty_Comp_Score"			"Leader defeated! %s1 notoriety points"
+
+"AccSkillLabel_3"				"Improves handgun secondary fire mode: top accuracy while fanning, much faster switch to fanning pose and movement speed than stock fanning; also allows to shoot semi-accurately while in-air. As a downside, primary fire mode gets worse accuracy than all other skills across single and dual wield"
+"Item44"						"Fanning"
+
+"ELM_Reward_FFA"				"FINISHING PLACE REWARD: +%s1 notoriety points"
+
+"Item3"							"Hammerless x2"
+
+"Gatling_Help2"					"Use mouse to aim Gatling Gun and fire by pressing %attack%"
+"Gatling_Help"					"Select fists and press %use% near a Gatling Gun to control it"
+
+"br_warning_safezone"			"Cannot pick a weapon within the safe zone's inner circle"
+
+		
+
+"CW_SafeZone_Warning"			"GO TO SAFE ZONE!"
+
+"ADVOPTS_hide_votemenu_no" 		"no"		
+"ADVOPTS_hide_votemenu_always" 	"always"
+"ADVOPTS_hide_votemenu_alive" 	"only when alive"
+
+"ADVOPTS_hide_votemenu" 		"Hide server vote menu"
+
+"ADVOPTS_zoom_sens_ratio_sharps" "Sharp's sensitivity mult. while iron sights ON"
+
+"Help_Gentleman2"		"+1 reward when taunting 'draw!' on enemy before attacking.\n+3 reward when taunting 'fistfight' and enemy is finished by fists. If a different weapon is used then a notoriety penalty is set.\nEnemies must be near your crosshair and not too far away. A target icon confirms warning worked.\nOnly pistols, revolvers, rifles and fists counts towards these bonuses"
+
+"Course_End_Completion"	"Course Completion: %s1%"
+
+"Course_Vote_Quit"		"QUIT PLAYING"
+"Course_Vote_Next"		"NEXT MAP"
+"Course_Vote_New"		"SELECT NEW COURSE"
+"Course_Vote_Replay"	"REPLAY COURSE"
+
+"Course_End_Win"		"COURSE COMPLETED!"
+"Course_End_Fail"		"FAILED"
+
+"Item25"				"Heavy Loads"
+"Help_HeavyLoad"		"Enemies getting knocked by thrown objects get pushed back and disarmed, held objects don't drop if hit by enemy fire"
+
+"Cash_Stolen_Warning"	"%s1 stole %s2 from you!"
+
+"Help_Pickpocket"		"Steals non visible (holstered) enemy's weapon when punching them from behind. If no weapons are found, some cash is stolen instead. As a downside, you get half the regular cash income. Can be identified by a dark bandanna"
+"Item24b"				"Pickpocket"
+
+"Global_Rank_Supported"	"Global Rank is supported by this server"
+
+"Warning_CustomMode"	"NOTICE: this is a custom game mode not developed by the FoF team"
+
+"ADVOPTS_ch_rifles"		"Display crosshair for rifles too"
+
+"Crate_Price_Warning"	"Not enough cash to buy that weapon"
+
+"Crate_Price_Discount"	" (Discount)"
+"Crate_Price_Premium"	" (Premium)"
+"Crate_Price_Stock"		" (Stock)"
+
+"Item18"	"Spencer Carbine"
+
+"challenge_melee_intro2"	"Stay on the bridge or challenge ends!"
+"challenge_melee_intro1"	"Finish 10 melee enemies with a kick to complete this challenge. Press %speed% to kick. Tip: timing and anticipation is key"
+
+"challenge_dynamite_defuse"	"Tip 1: defuse red sticks by pressing %use% on them. Tip 2: black sticks cannot get defused, they can be thrown back though! Blast 10 dynamiters to complete this challenge"
+
+"tut_interaction_25"	"No way, you did it! Congrats"
+"tut_interaction_24"	"Deal with those guys by kick-throwing flaming kegs at them"
+"tut_interaction_23"	"Throwing flaming kegs is the most devastating attack. Just throw a barrel through fire to lit it" 
+"tut_interaction_22"	"Go to the bonfire, there's one last thing to do" 
+"tut_interaction_21"	"Impressive, those standing still guys had no chance!" 
+"tut_interaction_20"	"Knock the 3 amigos down by kick-throwing kegs at them"
+"tut_interaction_19"	"Good job! Now practice against the guys outside"
+"tut_interaction_18"	"Kick-throw a barrel by pressing %speed% key"
+"tut_interaction_17"	"Grab another barrel and this time use kick-throw for increased force and damage"
+"tut_interaction_16"	"Tutorial cannot be completed like this, sorry"
+"tut_interaction_15"	"Throw it by pressing %attack% (light-throw)"
+"tut_interaction_14"	"Grab a barrel by selecting fists (%slot1%) and then press %use% key"
+"tut_interaction_13"	"Turns out the local priest is stockpiling explosive kegs... interesting"
+"tut_interaction_12"	"May the Lord forgive you for that, GO TO CHURCH"
+"tut_interaction_11"	"Wise choice... no wait, that's the worst weapon in the game"
+"tut_interaction_10"	"Keep %use% key pressed to open a weapon crate"
+"tut_interaction_9"		"FIND THE WEAPON CRATE"
+"tut_interaction_7"		"You stole the last jug, no surprise it was that well protected. I'd get myself a weapon if I were you..."
+"tut_interaction_6"		"Press %use% key to steal the safest whiskey in town"
+"tut_interaction_5"		"GO TO THE STORE AND FIND WHISKEY"
+"tut_interaction_4"		"Much better, but that explosive diarrhea was heavy, drink some whiskey to recover"
+"tut_interaction_3"		"Press %use% key to open/close the door"
+"tut_interaction_2"		"GET INTO THE OUTHOUSE"
+"tut_interaction_1"		"You are in a hurry, need to take a shit real bad!"
+
+"global_rank_not_enough_fragsmin"	"Global Rank aging warning: insufficient frags/minute (%s2, min: %s1)"
+"global_rank_not_enough_playtime"	"Global Rank aging warning: insufficient playtime (%s2, min: %s1)"
+
+"NoBots_Vote_Left"			"%s1 vote/s remain to kick all bots from the server"
+"NoBots_Vote_Done"			"Vote successful, now this is a bot-free server!"
+"NoBots_Poll_Hint"			"Say 'nobots' in chat to disable bots"
+
+"Highlighted_Online"		"players online"
+
+"Help_PortableWhiskey"		"Use it to heal near teammates, you also get healed when healing others. Only refills when drawn"
+
+"CourseStats_NotCompleted"	"Not completed yet"
+"CourseStats_Completed"		"Completed %s1 times"
+
+"Challenge_Gold"	"Challenge award: Gold"
+"Challenge_Silver"	"Challenge award: Silver"
+"Challenge_Bronze"	"Challenge award: Bronze"
+"Challenge_Slow"	"Too slow, no award achieved"
+
+"revolver_tut_stg3_10"		"Press %slot2% to draw additional left side revolver"
+
+"revolver_tut_stg3_9"		"A last tip: practice against bots to perfect your skills"
+
+"revolver_tut_stg3_8"		"Press revolver side switch key %+alt1% to pass your right revolver to left side"
+
+"revolver_tut_stg3_7a"		"Left hand skill grants best single revolver accuracy of all modes, however dual wield accuracy gets a big penalty. You are advised against using dual wield along left handed skill!"
+
+"revolver_tut_stg3_6a"		"Press %slot2% to holster left gun, notice how accuracy increases for the right side revolver?"
+"revolver_tut_stg3_6b"		"Shoot at the far targets with your right revolver"
+
+"revolver_tut_stg3_5a"		"Press %slot2% to draw left revolver"
+"revolver_tut_stg3_5b"		"Shoot at near targets with either gun"
+
+"revolver_tut_stg3_4a"		"Right handed skill offers better accuracy than default when using a single revolver. If you dual wield, then both guns get worse than 'default' accuracy"
+
+"revolver_tut_stg3_3a"		"Press %slot2% to draw left revolver. Note that each revolver type gets its own base accuracy"
+"revolver_tut_stg3_3b"		"Shoot at the silhouettes with either gun"
+
+"revolver_tut_stg3_2a"		"Ambidextrous skill means you can use dual wield revolvers and get 'default' accuracy for both of them at same time. Range is relatively short for 'default' accuracy though"
+
+"revolver_tut_stg3_1"		"Part 3: handgun accuracy modes. There exist 3 skillsets that affect your final accuracy when using handguns: ambidextrous, right handed and left handed"
+
+"revolver_tut_success"		"SUCCESS! Proceed to next stage"
+
+"revolver_tut_stg2_7"		"Break the 3 silhouettes before time runs out"
+
+"revolver_tut_stg2_6"		"FAILED! Too slow..."
+
+
+"revolver_tut_stg2_5a"		"Most revolvers support a secondary fire mode called 'fanning'. It's way faster than primary mode but less accurate and causes slightly less damage"
+"revolver_tut_stg2_5b"		"Press %attack2% until gun reaches fanning position, then press %attack% to fire. Play 'yes' taunt to start"
+
+"revolver_tut_stg2_4"		"Out of time! Go back to restart this trial"
+
+"revolver_tut_stg2_3"		"SUCCESS! Proceed to fanning stage"
+
+"revolver_tut_stg2_2a"		"There's no need to stand still to shoot accurately. Press %walk% key to walk and shoot at targets while moving. If your speed is too low the gate will close"
+
+"revolver_tut_stg2_2b"		"Break the targets while walking - do not stop on red area-"
+
+"revolver_tut_stg2_1a"		"Part 2, moving and shooting accurately: walking and fanning"
+
+"revolver_tut_use"		"Press %use% near a weapon to equip it"
+
+"revolver_tut_goback"		"Go back to firing line"
+
+"revolver_tut_draw_secondary"	"Draw your secondary revolver by pressing %slot2%"
+
+"revolver_tut_stg1_6a" 		"Well done, now take a secondary revolver from the table behind"
+"revolver_tut_stg1_6b"		"Pick additional revolver (%use% to pick)"
+
+"revolver_tut_stg1_5a"		"Tip: enable 'fast weapon switch' in Options/Keyboard/Advanced, or you'll have to press %attack% after selecting a weapon to draw it"
+"revolver_tut_stg1_5b"		"Draw your revolver by pressing %slot3%"
+
+"revolver_tut_stg1_4a" 		"FAILED! You run out of time"
+"revolver_tut_stg1_4b"		"Reload your revolvers to restart"
+
+"revolver_tut_stg1_3b"		"Fire by pressing %attack% and %attack2%"
+"revolver_tut_stg1_3a"		"Destroy all targets before time runs out"
+
+"revolver_tut_stg1_2b" 		"Play 'yes' taunt to continue (%voicealert% key)"
+	
+"revolver_tut_stg1_2a"		"Dual revolvers can be fired by pressing left and right mouse button. Remember to aim at head for double damage"
+
+"revolver_tut_stg1_reload"	"Reload your gun by pressing %reload%"
+
+"revolver_tut_stg1_1b" 		"Shoot at the targets by pressing left mouse button (primary)"
+
+"revolver_tut_stg1_1a"		"Revolvers have two fire modes: primary is accurate enough for mid range and secondary (fanning) is meant for close encounters.  TIP: hit target's head for double damage"
+
+"ADVOPTS_hp_posx"		"Health meter Horizontal position (0-100)"
+"ADVOPTS_hp_posy"		"Health meter Vertical position (0-100)"
+
+"FoF_Full_Games"		"%s1 full servers omitted"
+
+"FoF_Overweight2"	"WARNING: %s1% overencumber. Drop weapons to move faster"
+
+"LaunchMenu_Coop"			"Cooperative"
+
+"LaunchMenu_Singleplayer"		"Singleplayer"
+"LaunchMenu_Teams"				"Multiplayer"
+
+"LaunchMenu_Tutorials"			"Tutorials"
+"LaunchMenu_Challenges"			"Challenges"
+"LaunchMenu_Missions"			"Missions"
+
+"Unreliable_Connection_Warning"	"WARNING: your connection is faulty, movement speed penalty applied"
+
+"tutorial_whiskey"				"whiskey is great to regenerate your health. Press %use% next to a jug to drink it"
+
+"Rem_Army"						"Remington Army"
+
+"FoF_Course_AwaitForRespawn"	"Co-op course in progress, await for upcoming respawn"
+
+"FoF_Course_Editor"			"Course Editor"
+"FoF_Course_Editor_Help"	"0-9: select / LMB: spawn / RMB: panel edit / MOUSE WHEEL: scroll / DEL remove all / ALT save-load / INSERT Help"
+
+"GCMenu_Course"				"Course Mode"
+
+"GameCreate_Courses_NotSel"	"auto select"
+"GameCreate_Courses"		"Map Courses"
+
+"fof_hint_ai_editor"	"Press %fof_ai_editor% to open AI editor"
+
+"FoF_AI_Editor_Help"	"NUMBER KEYS: select / LMB: spawn / RMB: toggle edit / MOUSE WHEEL: scroll / DEL remove all placed items / ALT item placement mode"
+
+"FoF_AI_Editor"			"AI in-game editor"
+
+"ADVOPTS_Smoke_Trails"	"Gun smoke trails"
+
+"TopBar_Workshop"		"Workshop"
+"UGC_Name"				"Installed items (click on them to open in Workshop)"
+
+"Warning_High_Ping"		"WARNING: your latency or packet loss is too high, you may be kicked!"
+
+"ADVOPTS_badge"			"Scoreboard Badges"
+"ADVOPTS_badge_normal"	"Global Rank badges"
+"ADVOPTS_badge_special"	"special badges (FoFCL, dev team)"
+
+"Global_Rank_Level9"	"Level: Legend (%s1 to top, %s2 points to next level)"
+"Global_Rank_Level8"	"Level: Ace-High (%s1 to top, %s2 points to next level)"
+"Global_Rank_Level7"	"Level: Big Guns (%s1 to top, %s2 points to next level)"
+"Global_Rank_Level6"	"Level: Maverick (%s1 to top, %s2 points to next level)"
+"Global_Rank_Level5"	"Level: Gunslinger (%s1 to top, %s2 points to next level)"
+"Global_Rank_Level4"	"Level: Longraider (%s1 to top, %s2 points to next level)"  // form of notorious criminal
+"Global_Rank_Level3"	"Level: Bushwhacker (%s1 to top, %s2 points to next level)" 
+"Global_Rank_Level2"	"Level: Nibbler (%s1 to top, %s2 points to next level)" // lowly criminal
+"Global_Rank_Level1"	"Level: Drifter (%s1 to top, %s2 points to next level)" 
+"Global_Rank_Level0"	"Level: Alfalfa (%s1 to top, %s2 points to next level)" // derogatory form of farmer
+
+"ELM_Survivor_Protect"	"SURVIVOR BODYGUARD: +%s1 notoriety points"
+
+"VS_T_Finished"			"No more tournament matches to play"
+
+"ADVOPTS_Decals"		"World Decals (impacts, blood, etc)"
+"ADVOPTS_Shadows"		"Dynamic Shadows"
+
+"Global_Rank_Not_Supported"		"Global Rank not supported by server"
+
+"VS_Alive_Health"	"Enemy health: @%s1"
+
+"VS_Match_DrawZero"	"NO POINTS DRAW, %s1 rank points lost"
+"VS_Match_Draw"		"DRAW, no rank points gained or lost"
+
+"VS_Match_Winner_Points"	"%s1 rank points gained"
+"VS_Match_Loser_Points"		"%s1 rank points lost"
+
+"VS_Rank_Forecast"	"%s1 <gain/lose> %s2"
+"VS_Round_Result"	"%s1 - %s2"
+"VS_Round_Counter"	"ROUND %s1"
+"VS_Match_Presentation"	"%s1 VS %s2"
+"GCMenu_VS"		"Versus"
+
+
+"KillCam_Msg"		"%s1 @%s2 killed you with %s3"	// player name, hp and weapon used for kill
+
+"Global_Rank_NetLoss"	"GLOBAL RANK: %s1 points lost in this game"
+"Global_Rank_NetGain"	"GLOBAL RANK: %s1 points gained in this game (+%s2 rank)"
+"Global_Rank_Info"	"Your %s1 global rank position is %s2 (%s3 points)"
+
+"ELM_Spawn_Notice3"	"HOW TO PLAY: first team getting all their members killed once loses"
+"ELM_Survived_Round"	"SURVIVED ENTIRE ROUND: +%s1 notoriety points"
+"ELM_Survivor_Kill"	"SURVIVOR FRAG: +%s1 notoriety points"
+
+"TopBar_LeaderBoards"	"Global Rankings"
+
+// Advanced options
+"ADVOPTS_MOTD_disabled" 		"Disable MOTD HTML mode"
+"ADVOPTS_Show_fps" 			"Show the framerate"
+"ADVOPTS_Skybox_enable" 		"Enable 3D Skybox"
+"ADVOPTS_Improved_Impact_effects" 	"Improved impact effects"
+"ADVOPTS_FF_crosshair" 			"Show Friendly Fire Crosshair"
+"ADVOPTS_Crosshair_Scale" 		"Crosshair Scale"
+"ADVOPTS_Crosshair_thickness" 		"Crosshair thickness"
+"ADVOPTS_Crosshair_dot" 		"Draw crosshair's central dot"
+"ADVOPTS_Draw_Accuracy" 		"Draw crosshair accuracy stats"
+"ADVOPTS_Show_nt_ks_meter" 	"Show notoriety / KS meter"
+"ADVOPTS_OFF" 			"OFF"
+"ADVOPTS_Full" 			"Full"
+"ADVOPTS_Only_nt" 		"Only notoriety feed"
+"ADVOPTS_Only_ks" 		"Only killstreak"
+"ADVOPTS_both" 			"Notoriety feed + killstreak"
+"ADVOPTS_map_timer" 		"Always show map timer"
+"ADVOPTS_num_hp" 		"Show only numeric health meter"
+"ADVOPTS_auto_reload"		"Enable Weapon Auto-Reload"
+"ADVOPTS_rightclick_toggled" 	"Iron sights/Fanning toggle mode"
+"ADVOPTS_zoom_sens_ratio" 	"Sensitivity multiplier while iron sights ON"
+"ADVOPTS_muzzle_flashlight"	"Render muzzle flash light"
+"ADVOPTS_players_taunt"		"Play taunts from other players"
+"ADVOPTS_killcam"		"Use killcam if available"
+"ADVOPTS_ALL" 			"All"
+"ADVOPTS_far"			"Only far kills"
+"ADVOPTS_weap_leaning"		"Weapon leaning effect when accuracy is low"
+
+
+"Item3c" 			"Deringer"
+"Item23"			"Quick Draw"
+
+"Help_Handgun_Exp"		"20-30%% faster weapon draw, only applies to handguns (revolvers/pistols/sawed off shotgun)"
+
+"Item24"			"Insatiable"
+
+"Help_Insatiable"		"Whiskey drunkenness vanishes 30%% quicker and overweight limit is 30%% higher (carry more/heavier guns without speed loss)"
+
+"Help_Dynamite_Belt"		"This dynamite type is weaker but explodes almost on contact. A hit in the stomach will make you explode though. Very important: missed throws slow down your throw speed, try not to spam"
+
+"Item17"			"Dynamite Belt"
+
+"tp_extra_time"			"EXTRA TIME ADDED"
+
+"tp_abandoned_draw_vig"		"Vigilantes defended their end area (+3 points)"
+"tp_abandoned_draw_desp"	"Bandidos defended their end area (+3 points)"
+
+"Item15"			"Portable Whiskey"
+
+"Item4a"			"Yellowboy 1866"
+
+"Cash_Added_Whiskey"		"REWARD (whiskey served) +$%s1 added"
+
+"BB_WhiskeyArea"		"WHISKEY ZONE %s1m."
+"BB_Notice_WhiskeyArea"		"NEW WHISKEY ZONE AVAILABLE"
+
+"dynamite_forced_drop"		"WARNING: cannot holster dynamite if fuse burns for too long!"
+
+"FoF_Loadout_BigMode"		"Full Mode"
+"FoF_Loadout_QuickMode"		"Quick Mode"
+
+"FoF_Toggle_UI"			"Toggle minimal HUD mode on/off"
+
+"map_coastal_msg3"		"Bandidos lose the Warehouse and must fall back to the Caves!"
+"map_coastal_msg2"		"Vigilantes take the market! Up next, the Bandidos' Warehouse"
+"map_coastal_msg1"		"The Bandidos must prevent the Vigilantes from pushing the cart"
+
+
+"fof_hint_bb_gift"		"WEAPON GIFT: drop a loaded weapon near a team mate requesting weapons (white icon) to receive a notoriety reward"
+
+"FoF_Weapon_Gift"		"WEAPON GIFT: +%s1 notoriety points"
+
+"MutePlayerHintOFF"		"Voice chat is OFF. Press <%s1> to change"
+"MutePlayerHintON"		"Voice chat is ON. Press <%s1> to change"
+
+"intro_title_tp_score"		"HOW TEAM SCORE WORKS"
+"intro_tp_score_cart"		"PUSH THE CART MAPS: The closer cart gets to final destination the higher score will be. It's the opposite for enemy team"
+"intro_tp_score_zonecap"	"ZONE CAPTURE MAPS: attackers only score by standing inside enemy cap zone, defenders only score by killing enemies"
+"intro_tp_score_scale"		"Round score is displayed as X/10, X means the progress towards end goal and 10 are total points to add if objective is fully met"
+
+"fof_hint_bb_buy2"		"USE THE SPECIAL BUY ZONES TO ACQUIRE CHEAPER WEAPONS"
+
+"bb_buyzone_sale_gold"		"BUY HERE ANY WEAPON AT NORMAL PRICE"
+"bb_buyzone_sale_red"		"BUY HERE RED AND BLUE TIER WEAPONS AT NORMAL PRICE"
+
+"Awards_Team_Score"		"%s1 WON THE MAP! (%s2)"
+"Awards_Team_Score2"		"%s1 CAME SECOND (%s2)"
+
+"Awards_GoodBadYou"		"The Good, The Bad and You"
+
+"Awards_Local_Pos"		"You: %s1th - %s2"
+"Awards_Local"			"Yours: %s1"
+
+"Awards_NotorietyMinute"	"Best Frags/Min"
+"Awards_Killstreak"		"Best Killstreak"
+"Awards_Accuracy"		"Best Accuracy"
+"Awards_Drunkard"		"Most Drunk"
+
+
+"Item26"			"Machete"
+
+"TopBar_Stats"			"Personal Stats"
+
+"bb_selfdisarm_fists_hint"	"Press %+attack% to fistfight while self-disarmed"
+
+"PresetMenu_Edit_Button"	"Loadout Editor"
+"PresetMenu_Edit_Button_On"	"Click on a loadout to edit it or press SPACE BAR to create a new one"
+
+"TopBar_Res"			"Resources"
+"TopBar_Bug"			"Support"
+"TopBar_Notes"			"Update Notes"
+"TopBar_FoFCL"			"Competitive League"
+
+"TP_SwitchSides_Notice"		"TEAMS WILL SWITCH SIDES WHEN NEXT ROUND BEGINS!"
+
+"FoF_FriendName"		"Friends"
+"FoF_Friends_Games"		"%s1 Friends Playing"
+
+"FoF_BestScoreToWin"		"(POINTS NEEDED TO WIN THIS MAP: %s1)"
+"FoF_RoundsToPlay"		"MAP PROGRESS: %s1 / %s2 ROUNDS"
+
+"FoF_Servers_Title"		"%s1 Highlighted Community Servers"
+"FoF_Servers_Warning"		"    ========> Click On A Server To Join"
+"FoF_Servers_Mode"		"Game Mode"
+"FoF_Servers_Players"		"Players"
+
+"GC_Team_Number"		"Team Amount"
+
+"FoF_Votekick_Hint"		"Press %votekick% to open votekick menu"
+
+"FoF_Votekick_Menu"		"Vote menu to kick players"
+"Votekick_player_voted"		"%s1 wants to kick %s2, %s3 more votes needed. Press %votekick% to vote."
+
+
+
+"FoF_Capturing_Progress"	"%s1% done"
+
+"GCMenu_ELM"			"Elimination"
+
+"CH_Accuracy_Stats_Dual" 	"accuracy %s1% / %s2%"
+"CH_Accuracy_Stats" 		"accuracy %s1%"
+
+"UseHelpText"			"Press %+use% to USE"
+
+"bb_public_enemy_warning"	"YOU ARE MOST WANTED! Your frags are better rewarded though..."
+"BB_PublicEnemy_Obj"		"MOST WANTED %s1m."
+
+"LastMan"		"LAST MAN STANDING"
+"BandidoRound"		"Bandidos win the round"
+"RangerRound"		"Rangers win the round"
+
+// =================
+
+"FoF.VoiceEnable"	"Enable Voice Global"
+"FoF.VoiceDisable"	"Disable Voice Global"
+
+"intro_aim_rifle_2"	"Hip shooting means in this case very low chances to hit, so isn't a good idea usually."
+"intro_aim_rifle_1"	"Rifles make use of iron sights for accurate shooting, press secondary attack to aim." 
+"intro_aim_rifle_title"	"RIFLE RELATED ACCURACY"
+
+"intro_aim_rev_2"	"Some revolvers get a secondary fire mode called 'fanning', it lowers accuracy but allows higher fire rate."
+"intro_aim_rev_1"	"Primary attack mode grants best accuracy, always use it unless your target is close."
+"intro_aim_rev_title"	"REVOLVER RELATED ACCURACY"
+
+"intro_aim_mov_3"	"3. Running or jumping trashes accuracy completely, you may miss even from very close!"
+"intro_aim_mov_2"	"2. Walking gets you enough accuracy for close quarters combat."
+"intro_aim_mov_1"	"1. Idle or duck stance grants best accuracy"
+"intro_aim_mov_title"	"MOVEMENT RELATED ACCURACY"
+
+"intro_aim_ch_2"	"A SMALLER crosshair means HIGHER accuracy (less bullet spread). Chances to hit:"
+"intro_aim_ch_1"	"Crosshair size varies to indicate how accurate your shots will be."
+"intro_aim_ch_title"	"DYNAMIC CROSSHAIR"
+
+"intro_aim_title"	"AIM PROPERLY"
+"intro_title_learn"	"LEARN TO:"
+
+// ================
+
+"intro_dm_surv3"	"3. Try to combine different attacks, high tier + low tier revolver, melee, etc. Remember that last hit is the one that counts towards notoriety reward."
+"intro_dm_surv2"	"2. Powerful guns aren't great for notoriety but they are useful to mantain a killstreak, among other reasons."
+"intro_dm_surv1"	"1. Since killstreaks are important, use whiskey to regenerate your health."
+"intro_dm_surv_title"	"SURVIVAL TRICKS:"
+"intro_dm_noto3"	"2. Killstreaks: base notoriety for each attack grows along a killstreak, it's multiplied up to x2."
+"intro_dm_noto2"	"1. Weaker weapons: low tier ones work best for notoriety gain. Especially fists and kick."
+"intro_dm_noto1"	"TIPS TO GAIN NOTORIETY:"
+"intro_dm_obj2"		"Notoriety is gained through killing other players. The harder to execute an attack, the higher notoriety gain is."
+"intro_dm_obj1"		"Kill, kill as much as possible, but do it with style if you want to reach the scoreboard's top."
+
+"intro_obj_pushcart" 	"PUSH THE CART MAPS: take the mine cart/raft to enemy base before time runs out."
+"intro_obj_zonecap"	"ZONE CAPTURE MAPS: defend or attack the highlighted capture zone, depending your team's stance."
+
+"intro_title_tp_cash"	"HOW CASH SYSTEM WORKS:"
+"intro_tp_cash_cart"	"PUSH THE CART MAPS: players gain cash at specific moments as spawn timer reset or cart reaching a new stage. All players get same cash amount."	
+"intro_tp_cash_zonecap"	"ZONE CAPTURE MAPS: cash is received at round start, amount is proportional to individual performance during previous round (notoriety gained)"
+
+"intro_teamplay_gm"		"TEAMPLAY GAME MODE"
+"intro_shootout_gm"		"SHOOTOUT GAME MODE"
+
+"intro_howto"			"HOW TO PLAY:"
+"intro_gm_bb"			"BREAK BAD GAME MODE"
+"intro_primary_obj"		"PRIMARY OBJECTIVE:"
+"intro_tip_killarmed"		"Kill armed players and do NOT damage disarmed ones"
+"intro_label_armed"		"armed"
+"intro_label_disarmed"		"disarmed"
+"intro_title_warning"		"WARNING:"
+"intro_title_secondary_obj"	"SECONDARY OBJECTIVE:"
+"intro_tip_cash"	"Earn money to buy better weapons and improve your team's score"
+"intro_tip_teamcash"	"TEAM SCORE: total cash earned by each team's player, it cannot be decreased by any way"
+"intro_title_getcash"	"HOW TO EARN MONEY:"
+"intro_tip_cash1"	"1. Kill enemy players (higher frag count for victim equals to higher bounty)"
+"intro_tip_cash2"	"2. Take loot delivery missions"
+"intro_tip_cash3"	"3. Pick weapons from the ground and sell them in a 'disarm zone'"
+"intro_title_tips"	"PRO-TIPS:"		
+"intro_tip_buy"		"1. Use the special buy zones: 30% or 50% cheaper prices than buying weapons at spawn"
+"intro_tip_disarmed"	"2. Use disarmed state as an advantage to reach places, jail enemies or get weapons without being attacked"
+
+
+// ===========
+
+"FoF_ScoreBoard_Cash"			"Cash"
+
+"PresetMenu_Warning_CannotBuy"		"Out of spawn buy time or out of buy zone" 
+
+"fof_hint_bb_unarmed"			"You'll get fined when attacking disarmed players. If a fine can't be paid, you'll get jailed"
+"fof_hint_bb_loot"			"Take loot from pickup zone to delivery point to gain extra cash"
+"fof_hint_bb_loot2"			"Kill loot carriers for extra cash, they can be identified by a ($) green symbol at their bottom"
+"fof_hint_bb_spawn"			"Weapons can be bought some seconds after respawn, or later at buy zones that spawn randomly"
+"fof_hint_bb_selfdisarm"		"Disarm zones turn all your weapons into cash and make you a 'self-disarmed' player"
+"fof_hint_bb_selfdisarm2"		"A self-disarmed player receives cash rewards when attacked"
+
+"bb_selfdisarm_kill_warning"		"Killing self-disarmed players (bowler hat) takes all your cash and get you jailed"
+"bb_lootpickup_warning"			"A weapon is mandatory to pick up loot"
+"bb_jail_pickup_warning"		"A jailed player cannot get weapons in any way"
+
+"BB_UnarmedTimeLeft"			"Disarmed"
+"BB_JailTimeLeft"			"Jailed"
+
+"BB_Notice_BuyArea"			"NEW BUY ZONE AVAILABLE"
+"BB_Notice_DisarmArea"			"NEW DISARM ZONE AVAILABLE"
+"BB_Notice_LootPickArea"		"NEW LOOT PICKUP ZONE AVAILABLE"
+"BB_Notice_LootDropArea"		"NEW LOOT DELIVERY ZONE AVAILABLE"
+
+"BB_BuyArea"				"BUY ZONE %s1m."
+"BB_DisarmArea"				"DISARM ZONE %s1m."
+"BB_LootPickArea"			"LOOT PICKUP %s1m."
+"BB_LootDropArea"			"LOOT DELIVERY %s1m."
+
+"FoFLootScore"				"LOOT DELIVERY: +%s1 notoriety points"
+"Cash_Fine_Unarmed"			"FINE (attacking unarmed): -$%s1 removed"
+
+"Cash_Added_SelfDisarmed"		"REWARD (self-disarmed) +$%s1 added"
+"Cash_Added_LootDeliver"		"REWARD (loot delivery) +$%s1 added"
+"Cash_Added_SelfDisarm"			"REWARD (weapon sale) +$%s1 added"
+"Cash_Added_Kill"			"REWARD (frag) +$%s1 added"
+"Cash_Added_Spawn"			"REWARD (spawn) +$%s1 added"
+
+"InBuyArea"				"%equipmenu% TO BUY"
+
+"Cash_LimitReached"			"Limit reached, no cash added"
+"Cash_Added"				"REWARD: +$%s1 added"
+
+"GCMenu_BB"				"Break Bad"
+
+// =======================
+
+"ACHIEVEMENT_HATSHOT_NAME" 		"Hat-Shooter"
+"ACHIEVEMENT_HATSHOT_DESC" 		"Drop enemy hats by shooting at them and causing no damage"
+
+"fof_hint_hatshot"	"Shoot at enemy's hat for extra notoriety, causes no damage though"
+
+"FoFDropHatBonus"	"HAT DROP: +%s1 notoriety points"
+
+"HandgunSwitchWarning"	"Can't switch identical handguns"
+
+"FoFCaptureNotoriety"	"CAPTURE: +%s1 notoriety points"
+
+"FoF_CapIcon"		"CAPTURE - %s1m."
+"FoF_DefIcon"		"DEFEND - %s1m."
+
+"FoF_MVP"		"%s1 was the most notorious (%s2)"
+
+"PresetMenu_Warning_OutBuyZone"	"YOU ARE OUT OF THE BUY ZONE!"
+
+"fof_hint_randomshooter" "Your accuracy goes completely OFF while running or jumping!"
+
+"TeamsScrambled"	"TEAMS SCRAMBLED"
+
+"fof_hint_autobuy"	"Press %autobuy% to open the quick purchase panel"
+"fof_hint_rebuy"	"Press %rebuy% to purchase last selected loadout"
+
+"FoF_Autobuy"		"Quick purchase menu"
+"FoF_Rebuy"		"Re-purchase previous loadout"
+
+"FoF_Capturing"		"CAPTURING x%s1"
+"FoF_Cap_Blocked"	"CAPTURE BLOCKED"
+
+"GCMenu_TP"		"Teamplay/Objectives"
+
+// ****** CHAT
+
+"HL2MP_Chat_AllSpec"			"*SPEC* %s1 : %s2"
+"HL2MP_Chat_All"			"%s1: %s2"
+"HL2MP_Chat_Team"			"(TEAM)- %s1: %s2"
+"HL2MP_Chat_Spec"			"(Spectator)- %s1:  %s2"
+
+"Vote_NotPossible" 	"Not enough time passed for voting\n"
+"Vote_DM"		"%s1 wants to change game mode. %s2 votes required"
+"Vote_Suggest"		"Type 'changemode' in chat to switch game mode"
+
+"FoFSkillStreakTotal"	"Kill streak: %s1"
+"FoFKillScore"		"FRAG: +%s1 notoriety points"
+"FoFKillScore_Bonus"	"FRAG: +%s1 notoriety points (+%s2 KS)"
+"FoFGentleman_Bonus"	"GENTLEMAN BONUS: +%s1 notoriety points"
+"FoFGentleman_Malus"	"That wasn't very gentlemanly: %s1 notoriety points"
+"FoFPenaltyScore"	"Ungraceful death! %s1 notoriety points"
+"FoFAssistScore"	"ASSIST: +%s1 notoriety"
+
+"Achievement_Earned"		"%s1 has earned the achievement %s2"
+
+// MISC
+
+"Playerid_sameteam"		"Friend: %s1 Health: %s2"
+"Playerid_diffteam"		"Enemy: %s1"
+"Playerid_noteam"		"%s1 Health:%s2"
+
+"Game_connected"		"%s1 connected"
+"Game_disconnected"		"%s1 has left the game"
+
+"MuteList_Title"		"Click on a player to mute"
+
+// ***** HINTS / STATS
+
+"FoF_Hint_Key"		"Press <%s1> to continue"
+"FoF_Stat_Key"		"Press any key to continue"
+
+"FoF_Stat_Killstreak"	"New kill streak record set: %s1 frags. Your previous best was %s2!"
+"FoF_Stat_SurvivalTime"	"New survival record set: %s1 seconds. Your previous best was %s2!"
+"FoF_Stat_MaxDmg"	"New damage taken record set: %s1. Your previous best was %s2!"
+"FoF_Stat_MaxWhiskey"	"New whiskey drunk record set: %s1. Your previous best was %s2!"
+"FoF_Stat_MaxWeapons"	"New weapons used record set: %s1. Your previous best was %s2!"
+
+"fof_hint_headshot" 	"A headshot multiplies damage x2"
+"fof_hint_chestshot"	"A shot to the chest multiplies damage x1.3"
+"fof_hint_worldkill" 	"You still get a reward when kicking other players into water, fire or a large fall and they die"
+"fof_hint_dynamite1" 	"A lit dynamite can be exploded instantly by shooting at it"
+"fof_hint_dynamite2"	"Black dynamite is almost double as powerful than normal dynamite"
+"fof_hint_dynamite3"	"A live dynamite stick can be defused by selecting fists and pressing %+use% on it" 
+"fof_hint_dynamite4"	"Dynamite's secondary mode (lob) allows a quicker but shorter throw. Press %+attack2% to use it"
+"fof_hint_dynamite5"	"The longer you keep a lit dynamite in your hand, the less time it takes to explode when thrown"
+"fof_hint_dynamite6"	"Dynamite explodes on contact with blast damage, even just by carrying it holstered"
+"fof_hint_grab"		"Select fists and press %+use% to grab physic objects. Use %+attack% or %+speed% to throw them"
+"fof_hint_walk"		"Press %+walk% to walk, this is useful to move and shoot at close range with decent accuracy"
+"fof_hint_drop"		"The more guns you carry, the slower you move. Press %+zoom% + %+attack% or %+attack2% to drop a weapon"
+"fof_hint_reload"	"Old weaponry was slow to reload. Try to pick loaded guns from the ground (green/yellow) instead"
+"fof_hint_melee"	"Melee weapons receive a damage bonus only when hitting enemy's head"
+"fof_hint_healing"	"Use whiskey jugs to replenish your health. Press %+use% to pick them"
+"fof_hint_healing2"	"The golden weapon crate also replenishes your health partially"
+"fof_hint_fanning"	"Revolver fanning trades accuracy for higher fire rate. Keep %+attack2% pressed and then hit %+attack% to fan"
+"fof_hint_double"	"Coachgun allows a secondary fire mode, press %+attack2% to aim and walk simultaneously"
+"fof_hint_fists"	"A punch with brass knuckles may disarm opponents when they are looking at you"
+
+"fof_hint_walker"	"The 1847 Colt Walker was the largest and most powerful black powder repeating handgun ever made"
+"fof_hint_henry"	"'When a man with a .45 meets a man with a rifle, the man with a pistol will be a dead man' from 'A Fistful of Dollars'"
+"fof_hint_peacemaker" 	"Colt SAA 'Peacemaker', or just Colt .45, is known as 'The Gun That Won the West'"
+
+
+"ACHIEVEMENT_TRAITOR_NAME" 		"Best Friends"
+"ACHIEVEMENT_FRAG_ROBBER_NAME" 		"Frag Robber"
+"ACHIEVEMENT_ROBIN_HOOD_NAME"		"Robin Hood"
+"ACHIEVEMENT_HURT_PRIDE_NAME" 		"Kick their ass"
+"ACHIEVEMENT_DUTCH_COURAGE_NAME" 	"Dutch Courage"
+"ACHIEVEMENT_DEFUSER_NAME" 		"Defuser"
+"ACHIEVEMENT_CHAIN_REACTION_NAME" 	"Fistful of Dynamite"
+"ACHIEVEMENT_UNFORGIVEN_NAME" 		"The Unforgiven"
+"ACHIEVEMENT_DEAD_THAN_ALIVE_NAME" 	"More Dead Than Alive"
+"ACHIEVEMENT_DETONATOR_NAME" 		"Detonator"
+"ACHIEVEMENT_OVERWEIGHTED_NAME" 	"Overweighted"
+"ACHIEVEMENT_OVERPOWERED_NAME" 		"Overpowered"
+"ACHIEVEMENT_NOBODY_NAME" 		"My Name is Nobody"
+"ACHIEVEMENT_RANCHER_NAME" 		"Level: Rancher"
+"ACHIEVEMENT_GUNFIGHTER_NAME" 		"Level: Gunfighter"
+"ACHIEVEMENT_LEGEND_NAME" 		"Level: Legend"
+
+"ACHIEVEMENT_TRAITOR_DESC" 		"Kill some Steam friends with bare hands"
+"ACHIEVEMENT_FRAG_ROBBER_DESC" 		"Kill injured enemies by another player, while that player is still near the victim"
+"ACHIEVEMENT_ROBIN_HOOD_DESC"		"Make headshots using the bow from long range"
+"ACHIEVEMENT_HURT_PRIDE_DESC" 		"Kill enemies by kicking them into water, fire or a large fall"
+"ACHIEVEMENT_DUTCH_COURAGE_DESC" 	"Kill enemies while being under whiskey's effect"
+"ACHIEVEMENT_DEFUSER_DESC" 		"Pick lit dynamite sticks thrown by other players"
+"ACHIEVEMENT_CHAIN_REACTION_DESC" 	"Kill enemies with explosive chain reaction effect"
+"ACHIEVEMENT_UNFORGIVEN_DESC" 		"Kill enemies ending their streak of 7 or more kills"
+"ACHIEVEMENT_DEAD_THAN_ALIVE_DESC" 	"Get a few kills while your health is lower than 15 HP"
+"ACHIEVEMENT_DETONATOR_DESC" 		"Get a few kills shooting a lit dynamite"
+"ACHIEVEMENT_OVERWEIGHTED_DESC" 	"Kill enemies while reaching 100% overencumber due weapon accumulation"
+"ACHIEVEMENT_OVERPOWERED_DESC" 		"Kill enemies with dual Colt Walkers"
+"ACHIEVEMENT_NOBODY_DESC" 		"Your first kill among other human players"
+"ACHIEVEMENT_RANCHER_DESC" 		"Complete 25 games"
+"ACHIEVEMENT_GUNFIGHTER_DESC" 		"Complete 100 games"
+"ACHIEVEMENT_LEGEND_DESC" 		"Complete 500 games"
+
+// ***** GAME CREATE PANEL
+
+"FoF_Mode"			"Filter"
+
+"Bot_Allowed"			"Allow Bots"
+"Bot_Amount_0"			"No Bots"
+"Bot_Amount_1"			"Dynamic Amount"
+"Bot_Skill"			"Bot Skill"
+"Bot_Skill_0"			"Low" 
+"Bot_Skill_1"			"Normal" 
+"Bot_Skill_2"			"Good" 
+"Bot_Skill_3"			"Very good"
+"Bot_Skill_4"			"Excellent" 
+"Bot_Skill_5"			"Mixed" 
+"Bot_Skill_6"			"From Script"
+"Bot_Skill_Dyn"			"Dynamic"
+"Bot_CustScript"		"Custom Script"
+
+"GCMenu_FullList"		"Full Map List"
+"GCMenu_Duration"		"Playing Time (minutes)"
+"GCMenu_Teamplay"		"Teamplay Enabled"
+"GCMenu_Obj"			"Objective Based"
+
+
+// MOD OPTIONS
+
+"SliderMax"	"Max"
+"SliderMin"	"Min"
+"CHAlpha"	"Alpha"
+"CHBlue"	"Blue"
+"CHGreen"	"Green"
+"CHRed"		"Red"
+
+"Options_Fire"  		"Fire Quality"
+"Options_Color"			"Crosshair color"
+"Options_Smoke" 		"Gun Smoke"
+
+"Options_FOV"			"Field of View"
+"ViewmodelFOV"			"Weapon Field of View"
+"Options_BodyAwareness"		"Self body awareness"
+
+
+// KEY BIND PANEL
+
+"Switch_Revolver_Hand"		"Switch revolver to opposite hand"
+"TeamSelection"			"Team Selection"
+"EquipmentSelection"		"Loadout Selection"
+"ObjectivesScreen"		"Objectives Screen"
+"Voicecommands"			"Voice commands Panel"
+"Voicealerts"			"Voice alerts Panel"
+"Voicetaunts"			"Voice taunts Panel"
+"DropActiveWeapon"		"Drop Active Weapon"
+"Valve_Use_Items"		"Use (open chest, pick weapon, drink whiskey)"
+
+"FoF_KickKey"			"Kick"
+"FoF_MuteMenu"			"Mute Menu"
+
+// NON GAMEPLAY FEATURES
+
+"SCRAMBLE_POLL"			"SCRAMBLE POLL STARTED"	
+"Scramble_Poll_Title"		"Scramble teams?"
+"FoF_Yes"			"YAY!"
+"FoF_No"			"NAY!"
+
+"FoF_NextMapVote"		"Vote next map:"
+"FoF_MapVote"			"Map - total votes"
+
+"AutomaticBalancing"		"AUTOMATIC BALANCING: A PLAYER IS SWITCHED!"
+"TeamBalancing"			"TEAM BALANCING: YOU WERE SWITCHED!"
+"FullTeam"			"SELECTED TEAM IS FULL!"
+
+
+// ***** SCOREBOARD
+
+"Scoreboard_Server"		"%s1"
+"ScoreBoard_SpectatorFoF"	"Spectators: %s1 - %s2"
+"ScoreBoard_Players_FoF"	"Players: %s1"
+	
+"ScoreBoard_Players"		"%s1 - Players: %s2  Score: %s3"
+"ScoreBoard_Spectator"		"%s1"
+"ScoreBoard_Deathmatch"		"DEATHMATCH"
+"ScoreBoard_Players_DM"		"%s1 - Players: %s2"
+
+"ScoreBoard_Timer"		"TIME LEFT %s1:%s2"
+
+"PlayerNot"			"Notoriety"
+"PlayerFrags"			"Frags"
+
+"MutePlayerHint"		"Press <%s1> to mute players"
+
+
+// ***** GAMEPLAY RELATED
+
+"VigWin"		"VIGILANTES WIN THE MATCH"
+"DespWin"		"DESPERADOS WIN THE MATCH"
+"VigRound"		"Vigilantes win the round"
+"DespRound"		"Desperados win the round"
+
+"NoTeamWins"		"NO ONE WINS!"
+
+
+"Duel_GameTied"			"=== GAME TIED! WINNER WILL BE DECIDED IN DUEL ==="
+"Duel_Starting"			"=== STARTING DUEL ==="
+"Duel_NoOneWins"		"NO ONE WINS THE DUEL!"
+"Duel_GetReady"			"GET READY - DON'T AIM JUST YET"
+"Duel_Draw"			"DRAW!!!"
+"Duel_TooSoon"			"%s1 AIMED TOO SOON"
+"Duel_Winner"			"%s1 WINS"
+"Duel_Tie"			"Why can't we be friends?"
+
+
+// ***** VOICE COMMANDS PANEL
+
+"Command1"	"1. Attack"	
+"Command2"	"2. Go"	
+"Command3"	"3. Retreat"	
+"Command4"	"4. Objectives"
+"Command5"	"5. Cover"	
+"Command6"	"6. Wait"
+"Command7"	""
+"Command8"	""
+"Command9"	""
+"Command10"	""
+
+"Alert1"	"1. Yes"
+"Alert2"	"2. No"
+"Alert3"	"3. Enemy Spotted"
+"Alert4"	"4. Want Whiskey" 
+"Alert5"	"5. Reloading"
+"Alert6"	"6. No enemy here"
+"Alert7"	"7. Need a weapon"
+"Alert8"	""
+"Alert9"	""
+"Alert10"	""
+
+"Taunt1"	"1. Laugh"
+"Taunt2"	"2. Draw!"
+"Taunt3"	"3. Fighting talk"
+"Taunt4"	"4. Brag"
+"Taunt5"	"5. Howl"
+"Taunt6"	"6. Coward"
+"Taunt7"	"7. Fistfight"
+"Taunt8"	"8. My gold"
+"Taunt9"	"9. Shut Up"
+"Taunt10"	""
+
+
+// ***** NEW DM EQUIPMENT
+
+"Help_Knuckles"			"Improves punch damage significantly, this leads to higher speed penalty and higher view drift on opponents.\nA punch with brass knuckles may also disarm a facing opponent's handgun"
+
+"Help_Boots"			"Kick damage improved noticeably, enemies get pushed farther."
+
+"Help_Knife"			"Higher damage and range than bare hands. Use %+attack2% to throw it for increased damage"
+
+"Help_WThrow"			"Throw your handguns as projectile attack. Damage relies on weapon weight. \nPress %+zoom% + PRIMARY/SECONDARY attack to execute it."
+
+"Help_Dynamite"			"Medium explosive damage, keep attack pressed to shorten detonation delay.\nPress %+attack% for long throw,\n*Tip: shoot at lit dynamite sticks to explode them instantly.\n*Warning: you may explode on contact with blast damage without even holding a stick, just by carrying it."
+
+"Item3b" 			"Deringer"
+"Item1b"			"Knife"
+"Item0b"			"Black Dynamite"
+"Item41"			"Right-handed"
+"Item42"			"Left-handed"
+"Item43"			"Ambidextrous"
+"Item16b"			"Gentleman"
+"Item14"			"Handgun Throw"
+"Item34"			"Boots"
+"Item13b"			"Sawed Shotgun"
+"Item34b"			"Brass Knuckles"
+	
+"Equipment_Aim_Skill"		"Handgun Skill"
+"Equipment_Primary"		"Primary"
+"Equipment_Secondary"		"Secondary"
+
+"AccSkillLabel_0"		"Grants highest accuracy in dual wield mode.\nAs a downside, single hand accuracy in primary mode is lower than specialized single-handed modes."
+
+"AccSkillLabel_2"		"Grants best single handgun accuracy for primary mode.\nAs a downside, gives mediocre accuracy in dual wield mode."
+
+
+// ***** EQUIPMENT
+
+"ItemVolcanic"	"Volcanic Pistol"
+"Item0"		"Dynamite"
+"Item2"		"Colt Navy 1851"
+"Item4"		"Henry Rifle"
+"Item5"		"Smith Carbine"
+"Item6"		"Coachgun"
+"Item11"	"Bow"
+"Item12"	"Sharps Rifle"
+"Item19"	"Hatchet"
+"Item21"	"Colt Peacemaker"
+"Item30"	"Pump Shotgun W1893"
+
+"Item31a"	"S&W Schofield"
+"Item32"	"Colt Walker"
+"MaresLeg" 	"Mare's Leg"
+
+
+"Equipment_Ammo"		"AMMUNITION"
+"Presets1"			"PRESETS"
+
+"Equipment_Title"	"LOADOUT SELECTION"
+"Equipment_hint"	"Changes will be effective when player respawns."
+"Equipment_cat1"	"SHORT RANGE"
+"Equipment_cat2"	"MEDIUM RANGE"
+"Equipment_cat3"	"LONG RANGE"
+"Equipment_cat4"	"AMMUNITION"
+"Equipment_cat5"	"MISC."
+"Equipment_cat6"	"SELECTED:"
+"Equipment_cat7"	"HATS"
+
+
+"Equipment_Hint1"	"Notoriety Multiplier"
+"Equipment_Hint2"	"Damage"
+"Equipment_Hint3"	"Accuracy"
+
+"FoF_Save"			"Save"
+"FoF_Delete"			"Delete"
+
+// ***** PRESET MENU
+
+"PresetsSelection"		"Preset selection menu"
+"PresetMenu_Title"		"LOADOUT SELECTION"
+"PresetMenu_Edit"		"EDIT PRESETS %+equipmenu%"
+"PresetMenu_Filter"		"FILTER"
+"PresetMenu_Filter_No"		"No"
+"PresetMenu_Filter_Short"	"Short Range"
+"PresetMenu_Filter_Medium"	"Medium Range"
+"PresetMenu_Filter_Long"	"Long Range"
+"PresetMenu_Warning"		"CHANGES WILL BE MADE EFFECTIVE AFTER RESPAWN"
+
+}
+}
