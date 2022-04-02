@@ -9,7 +9,7 @@ Right now I am cooperating with others to make this translation better.
 
 *WARNING: BEFORE MOVING THIS TRANSLATION TO YOUR `./fof/resource/`DIRECTORY, YOU MUST CONVERT THIS `.TXT` FILE INTO "UTF-16 LE" FORMAT.*
 
-这是 Fistful of Frags （火药瘾君子）游戏的简体中文翻译文件。
+这是 Fistful of Frags （火药信徒）游戏的简体中文翻译文件。
 
 **版本是 20220321**，是跑酷更新的版本。
 
