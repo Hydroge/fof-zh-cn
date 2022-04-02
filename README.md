@@ -29,6 +29,7 @@ Right now I am cooperating with others to make this translation better.
 |文件名称|描述|
 |:--|:--|
 |fof_english.txt|FoF 英文原文|
-|fof_schinese.txt|FoF 改良中文翻译|
-|fof_schinese_original.txt|FoF 中文原版翻译，用作对照|
+|fof_schinese_Engineering.txt|FoF 改良中文翻译之工程文件，文本格式为UTF-8。|
+|fof_schinese.txt|FoF 以 UTF-16 LE 为格式的中文翻译文件，可以直接应用于游戏。|
+|fof_schinese_original.txt|FoF 中文原版翻译，用作对照（封存）|
 |compare.txt|自己用来作更新前后英文原文的变动，从而决定自己的汉化应该往哪个方向改进|
