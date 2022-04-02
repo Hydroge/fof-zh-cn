@@ -15,7 +15,7 @@
 "Item23e"						"Jumpmaster"
 "Help_Walljump"					"Some impulse is gained when performing a wall-jump, look into any direction before wall-jumping to redirect that impulse. A kick inflicted mid-air after wall-jumping will deal considerably more damage. Fall damage is decreased noticeably"
 
-"Help_Slide"					"Maintain high speed for a while and then press crouch key %+duck% for a slide. Certain large weapons or carriying many small weapons may stop you from gaining enough speed. Also consider that jumping or strifing shortly before a slide will reduce impulse severely. Handguns draw faster while sliding."
+"Help_Slide"					"Maintain high speed for a while and then press crouch key %+duck% for a slide. Certain large weapons or carriying many small weapons may stop you from gaining enough speed. Handguns draw faster while sliding and its accuracy is same as standing still. Melee weapons get a small damage bonus when sliding"
 
 "Item23d"						"Slide"
 
