@@ -12,6 +12,14 @@
 "Tokens" 
 { 
 
+"FoF.Progression_Rank_Help"		"Complete this rank to unlock all weapons and perks in the game. Just level up by killing other human players in multiplayer games.\n\nPlease note that this rank can be bypassed by reaching level 1 in your Steam account."
+
+"FoF.Rank_display"				"Your FragMaster progress:"
+
+"FoF_NotEnoughRank"				"90753099Can't purchase %s1, FragMaster rank required: %s2"
+
+"Hud.ProgressionLevel"			"FM rank required: %s1"
+
 "Item23e"						"Jumpmaster"
 "Help_Walljump"					"Some impulse is gained when performing a wall-jump, look into any direction before wall-jumping to redirect that impulse. A kick inflicted mid-air after wall-jumping will deal considerably more damage. Fall damage is decreased noticeably"
 

@@ -2,6 +2,10 @@
 // 请先保存为 UTF-16 LE 格式再复制到游戏目录当中。
 // 请先保存为 UTF-16 LE 格式再复制到游戏目录当中。
 
+// Please save this file as UTF-16 format before moving it to the folder of the game!
+// Please save this file as UTF-16 format before moving it to the folder of the game!
+// Please save this file as UTF-16 format before moving it to the folder of the game!
+
 // Radio and chat strings can have control characters embedded to set colors.  For the control characters to be used, one must be at the start of the string.
 // 无线电和聊天字符串可以通过嵌入控制字来设置颜色。要使用控制字，其必须出现在字符串的开头。
 // The control characters can be copied and pasted in notepad.
@@ -22,6 +26,15 @@
 "Language" "SChinese" 
 "Tokens" 
 { 
+
+"FoF.Progression_Rank_Help"		"完成西部通行证以解锁游戏内的全部武器和技能。只需要在多人游戏当中击杀其他人类玩家即可升级。\n请注意，当您的Steam账户等级不为0时，无需通行证，您可以直接使用全部武器和技能。"
+
+"FoF.Rank_display"				"您的通行证进度："
+
+//这句话目前没用，低等级玩家可以无视通行证等级而直接购买全部箱子内的武器。
+"FoF_NotEnoughRank"				"无法购买 %s1, 通行证等级需要 %s2 级。"
+
+"Hud.ProgressionLevel"			"通行证等级要求：%s1"
 
 "Item23e"						"飞檐走壁"
 "Help_Walljump"					"当进行踢墙跳的时候会有一定加速。踢墙跳时，你看向哪就会往哪跳。踢墙跳之后的空中踢腿可以造成额外15点伤害。掉落伤害显著降低。"
