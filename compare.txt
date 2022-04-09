@@ -14,7 +14,7 @@
 
 "FoF.Progression_Rank_Help"		"Complete this rank to unlock all weapons and perks in the game. Just level up by killing other human players in multiplayer games.\n\nPlease note that this rank can be bypassed by reaching level 1 in your Steam account."
 
-"FoF.Rank_display"				"Your FragMaster progress:"
+"FoF.Rank_display"				"Your FragMaster progress: %s1"
 
 "FoF_NotEnoughRank"				"90753099Can't purchase %s1, FragMaster rank required: %s2"
 
