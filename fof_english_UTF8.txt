@@ -12,6 +12,8 @@
 "Tokens" 
 { 
 
+"Item11b"						"Black Bow"
+
 "FoF.Progression_Rank_Help"		"Complete this rank to unlock all weapons and perks in the game. Just level up by killing other human players in multiplayer games.\n\nPlease note that this rank can be bypassed by reaching level 1 in your Steam account."
 
 "FoF.Rank_display"				"Your FragMaster progress: %s1"
