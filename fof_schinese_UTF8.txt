@@ -926,7 +926,7 @@
 "Command4"	"4. 任务目标"
 "Command5"	"5. 掩护"	
 "Command6"	"6. 等等"
-"Command7"	"7. 转移战利品"
+"Command7"	""
 "Command8"	""
 "Command9"	""
 "Command10"	""
