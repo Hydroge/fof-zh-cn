@@ -12,6 +12,12 @@
 "Tokens" 
 { 
 
+"revolver_tut_stg2_2aa"		"There's no need to stand still to shoot accurately when 'Righthanded' revolver mode is selected. Press %attack2% key to aim your revolver and shoot at targets while moving. If your speed is too low the gate will close"
+
+"revolver_tut_stg2_2ba"		"Break the targets while moving - do not stop on red area-"
+
+"revolver_tut_stg2_1aa"		"Part 2, moving and shooting accurately: revolver aiming and fanning modes"
+
 "Item11b"						"Black Bow"
 
 "FoF.Progression_Rank_Help"		"Complete this rank to unlock all weapons and perks in the game. Just level up by killing other human players in multiplayer games.\n\nPlease note that this rank can be bypassed by reaching level 1 in your Steam account."
@@ -260,11 +266,7 @@
 
 "revolver_tut_stg2_3"		"SUCCESS! Proceed to fanning stage"
 
-"revolver_tut_stg2_2a"		"There's no need to stand still to shoot accurately. Press %walk% key to walk and shoot at targets while moving. If your speed is too low the gate will close"
 
-"revolver_tut_stg2_2b"		"Break the targets while walking - do not stop on red area-"
-
-"revolver_tut_stg2_1a"		"Part 2, moving and shooting accurately: walking and fanning"
 
 "revolver_tut_use"		"Press %use% near a weapon to equip it"
 
