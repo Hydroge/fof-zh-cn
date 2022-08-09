@@ -412,7 +412,7 @@
 "ADVOPTS_Show_fps" 			"显示帧率"
 "ADVOPTS_Skybox_enable" 		"启用3D天空盒子"
 "ADVOPTS_Improved_Impact_effects" 	"提升反射效果"
-"ADVOPTS_FF_crosshair" 			"瞄准友军时十字准星"
+"ADVOPTS_FF_crosshair" 			"瞄准友军时在准星处显示叉号"
 "ADVOPTS_Crosshair_Scale" 		"十字准星大小"
 "ADVOPTS_Crosshair_thickness" 		"准星粗细"
 "ADVOPTS_Crosshair_dot" 		"绘制准星中心点"
