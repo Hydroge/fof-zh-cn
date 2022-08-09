@@ -1,12 +1,8 @@
 // 请先保存为 UTF-16 LE 格式再复制到游戏目录当中。
-// 请先保存为 UTF-16 LE 格式再复制到游戏目录当中。
-// 请先保存为 UTF-16 LE 格式再复制到游戏目录当中。
-// 若不认同当前翻译维护者（Ψευδαίσθηση），请勿使用现行版本之翻译。
-// 届时，请自行寻找以前之翻译，或直接使用其他语言。
+// 若不认同当前翻译，可向现行翻译之译者（Ψευδαίσθηση）提出建议、自行修改本文件、使用以前版本之翻译或使用其他语言。
 
 // Please save this file as UTF-16 format before moving it to the folder of the game!
-// Please save this file as UTF-16 format before moving it to the folder of the game!
-// Please save this file as UTF-16 format before moving it to the folder of the game!
+// If you do not agree with the current translation, you may make a suggestion to the translator of the current translation (Ψευδαίσθηση), modify this document yourself, use a previous version of the translation, or pick another language.
 
 // Radio and chat strings can have control characters embedded to set colors.  For the control characters to be used, one must be at the start of the string.
 // 无线电和聊天字符串可以通过嵌入控制字来设置颜色。要使用控制字，其必须出现在字符串的开头。
