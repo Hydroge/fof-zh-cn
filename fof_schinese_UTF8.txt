@@ -1,6 +1,8 @@
 // 请先保存为 UTF-16 LE 格式再复制到游戏目录当中。
 // 请先保存为 UTF-16 LE 格式再复制到游戏目录当中。
 // 请先保存为 UTF-16 LE 格式再复制到游戏目录当中。
+// 若不认同当前翻译维护者（Ψευδαίσθηση），请勿使用现行版本之翻译。
+// 届时，请自行寻找以前之翻译，或直接使用其他语言。
 
 // Please save this file as UTF-16 format before moving it to the folder of the game!
 // Please save this file as UTF-16 format before moving it to the folder of the game!
@@ -148,11 +150,11 @@
 
 "CW_SafeZone_Warning"			"前往安全区！"
 
-"ADVOPTS_hide_votemenu_no" 		"关闭"		
+"ADVOPTS_hide_votemenu_no" 		"关闭-建议/否则无法投票换图"		
 "ADVOPTS_hide_votemenu_always" 	"总是"
 "ADVOPTS_hide_votemenu_alive" 	"仅当活着时"
 
-"ADVOPTS_hide_votemenu" 		"隐藏服务器投票菜单"
+"ADVOPTS_hide_votemenu" 		"隐藏服务器投票菜单（建议关闭）"
 
 "ADVOPTS_zoom_sens_ratio_sharps" "夏普狙击枪瞄准镜开启时的灵敏度倍数"
 
