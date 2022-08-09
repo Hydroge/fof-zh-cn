@@ -150,11 +150,11 @@
 
 "CW_SafeZone_Warning"			"前往安全区！"
 
-"ADVOPTS_hide_votemenu_no" 		"关闭-建议/否则无法投票换图"		
-"ADVOPTS_hide_votemenu_always" 	"总是"
-"ADVOPTS_hide_votemenu_alive" 	"仅当活着时"
+"ADVOPTS_hide_votemenu_no" 		"不隐藏（建议）"		
+"ADVOPTS_hide_votemenu_always" 	"总是隐藏"
+"ADVOPTS_hide_votemenu_alive" 	"仅当在场上活着时隐藏"
 
-"ADVOPTS_hide_votemenu" 		"隐藏服务器投票菜单（建议关闭）"
+"ADVOPTS_hide_votemenu" 		"隐藏屏幕左侧投票菜单"
 
 "ADVOPTS_zoom_sens_ratio_sharps" "夏普狙击枪瞄准镜开启时的灵敏度倍数"
 
