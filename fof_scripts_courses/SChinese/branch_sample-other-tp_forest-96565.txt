@@ -1,0 +1,138 @@
+"Course"
+{
+	"player_team"		"2"
+	"max_players"		"1"
+	"bot_alliance"		"1"
+	"0"
+	{
+		"data"		"normal"
+		"type"		"player_spawn"
+		"origin_x"		"84.114273"
+		"origin_y"		"602.527771"
+		"origin_z"		"32.031250"
+		"dir_x"		"0.390295"
+		"dir_y"		"0.813294"
+		"dir_z"		"0.431536"
+	}
+	"0"
+	{
+		"data"		"spawn-supply-tp_forest_96565.ai"
+		"type"		"object_spawn"
+		"origin_x"		"233.006866"
+		"origin_y"		"709.922180"
+		"origin_z"		"32.031250"
+		"dir_x"		"-0.702682"
+		"dir_y"		"0.558338"
+		"dir_z"		"0.441018"
+	}
+	"4"
+	{
+		"data"		"Some unsatisfied customers say your sawmill sucks, they want their money back!"
+		"type"		"message"
+		"origin_x"		"-140.326187"
+		"origin_y"		"798.067810"
+		"origin_z"		"32.031250"
+		"dir_x"		"0.894745"
+		"dir_y"		"0.287234"
+		"dir_z"		"0.341949"
+	}
+	"3"
+	{
+		"data"		"However your no-refunds policy is pretty clear. Deal with them"
+		"type"		"message"
+		"origin_x"		"-146.960754"
+		"origin_y"		"1067.983765"
+		"origin_z"		"32.031250"
+		"dir_x"		"0.789165"
+		"dir_y"		"-0.539127"
+		"dir_z"		"0.294213"
+	}
+	"6"
+	{
+		"data"		"wave1,wave1b"
+		"type"		"goto"
+		"origin_x"		"140.015579"
+		"origin_y"		"928.263611"
+		"origin_z"		"32.031250"
+		"dir_x"		"0.767026"
+		"dir_y"		"-0.385355"
+		"dir_z"		"0.513003"
+	}
+	"wave1"
+	{
+		"data"		"wave1-wave-tp_forest_96565.ai"
+		"type"		"wave_spawn"
+		"origin_x"		"1117.651245"
+		"origin_y"		"635.050781"
+		"origin_z"		"32.347878"
+		"dir_x"		"-0.058107"
+		"dir_y"		"-0.694725"
+		"dir_z"		"0.716925"
+	}
+	"1"
+	{
+		"value"		"0"
+		"output"		"end"
+		"type"		"check_enemies"
+		"origin_x"		"1225.966064"
+		"origin_y"		"680.949524"
+		"origin_z"		"44.897293"
+		"dir_x"		"-0.339261"
+		"dir_y"		"-0.687542"
+		"dir_z"		"0.642019"
+	}
+	"0"
+	{
+		"type"		"stop"
+		"origin_x"		"1490.522583"
+		"origin_y"		"570.269226"
+		"origin_z"		"31.809841"
+		"dir_x"		"-0.991015"
+		"dir_y"		"0.125238"
+		"dir_z"		"0.046952"
+	}
+	"end"
+	{
+		"data"		"succeed"
+		"type"		"game_end"
+		"origin_x"		"281.963562"
+		"origin_y"		"1688.668701"
+		"origin_z"		"71.393753"
+		"dir_x"		"0.817700"
+		"dir_y"		"-0.496680"
+		"dir_z"		"0.290991"
+	}
+	"wave1b"
+	{
+		"data"		"wave1b-wave-tp_forest_96565.ai"
+		"type"		"wave_spawn"
+		"origin_x"		"-1069.150635"
+		"origin_y"		"994.924927"
+		"origin_z"		"56.300003"
+		"dir_x"		"0.904854"
+		"dir_y"		"0.030163"
+		"dir_z"		"0.424653"
+	}
+	"1"
+	{
+		"value"		"0"
+		"output"		"end"
+		"type"		"check_enemies"
+		"origin_x"		"-1140.092651"
+		"origin_y"		"1161.410522"
+		"origin_z"		"37.468800"
+		"dir_x"		"0.711159"
+		"dir_y"		"0.499738"
+		"dir_z"		"0.494484"
+	}
+	"0"
+	{
+		"type"		"stop"
+		"origin_x"		"-1212.099365"
+		"origin_y"		"1353.656250"
+		"origin_z"		"30.874191"
+		"dir_x"		"0.853984"
+		"dir_y"		"0.007784"
+		"dir_z"		"0.520241"
+	}
+}
