@@ -1024,5 +1024,79 @@
 "PresetMenu_Filter_Long"	"Long Range"
 "PresetMenu_Warning"		"CHANGES WILL BE MADE EFFECTIVE AFTER RESPAWN"
 
+// ***** Challenges
+
+"challenge_forest_1"        "25 zombies left, kill or be eaten!"
+
+"challenge_jump_1"          "Follow the waypoints to reach the goal. Note that this course requires wall-climbimg (press jump key right after jumping near a wall or platform)"
+"challenge_jump_2"          "Pick the hatchet to start"
+"jm_goal"                   "GOAL"
+
+"challenge_gatling_1"       "Your party was assaulted by some strange guys with uncontrollable hunger for brains. Everyone died but you."
+"challenge_gatling_2"       "Defend yourself by using the Gatling Gun"
+"gatling_gun"               "Gatling Gun"
+"gatling_horde_1"           "Horde 1/10"
+"gatling_horde_2"           "Horde 2/10"
+"gatling_horde_3"           "Horde 3/10"
+"gatling_horde_4"           "Horde 4/10"
+"gatling_horde_5"           "Horde 5/10"
+"gatling_horde_6"           "Horde 6/10"
+"gatling_horde_7"           "Horde 7/10"
+"gatling_horde_8"           "Horde 8/10"
+"gatling_horde_9"           "Horde 9/10"
+"gatling_horde_10"          "Horde 10/10"
+
+"challenge_dynamite_1"      "Break all the target silhouettes to complete this challenge"
+"challenge_dynamite_2"      "Step into start area to begin"
+"dy_start"                  "START"
+
+"challenge_bow_1"           "Kill all the 15 marked targets before time runs out. Stay on this roof or challenge will end"
+"challenge_bow_2"           "Pick the bow to start"
+
+"mission_sawmill_1"         "Reinforcements granted"
+"mission_sawmill_2"         "Secondary mission: find the top tier supplies"
+"mission_sawmill_3"         "FINAL WAVE! Stay alive during countdown to win"
+"mission_sawmill_4"         "YOU RUN OUT OF TIME!"
+"mission_sawmill_5"         "Extra time added, keep capturing to get more"
+"saw_supplies"              "SUPPLIES"
+"top_tier_supplies"         "TOP TIER SUPPLIES"
+
+"mission_sawmill_ex1"       "Defend your sawmill from angry competitors"
+
+"mission_oneeye_1"          "We're here for One-Eye, Vigilantes. Gear up!"
+"mission_oneeye_2"          "One-Eye is located in the mines of coastal. We're going to blow it up!"
+"mission_oneeye_3"          "These bastard bandidos are already looking for him. Kill them all!"
+"mission_oneeye_4"          "Looks like the Bandidos weren't the only ones!"
+"mission_oneeye_5"          "One-Eye is here! Kill him then exit the tunnel!"
+"one_exit"                  "EXIT"
+"one_push"                  "PUSH"
+"one_supplies"              "Supplies have been located!"
+"mission_oneeye_6"          "Respawns Commencing"
+"mission_oneeye_7"          "One-Eye is dead, now find the exit!"
+
+"mission_push_1"            "Run out of time!"
+
+"mission_forest_1"          "This forest is so quiet, oh wait, what's that noise..."
+"mission_forest_2"          "Quick! Move to the near building over there"
+"mission_forest_move"       "Move"
+"mission_forest_movehere"   "MOVE HERE"
+
+"mission_bank_1"            "The Bank of El Paso is like a fortress, its only weakness is..."
+"mission_bank_2"            "a bridge connecting the bank's roof to this saloon"
+"mission_bank_3"            "First of all, let's rearm."
+"bank_weapons"              "WEAPONS"
+"bank_tobank"               "TO BANK"
+"mission_bank_4"            "Begin robbery by choosing an entrance to bank"
+"bank_obj"                  "OBJECTIVE"
+"mission_bank_5"            "We made it! Getting alive out of here won't be easy, more guards are coming!"
+"mission_bank_6"            "There are too many of them, escape to the hardware store, now!"
+"bank_escape"               "ESCAPE"
+"mission_bank_7"            "This is getting worse, rangers are after us. Move to bath house!"
+"mission_bank_8"            "Continue moving, if we reach the theatre there may be a chance to leave this town in one piece"
+"bank_leave"                "LEAVE TOWN"
+"bank_escape_2"             "Escape!"
+
+
 }
 }
+
