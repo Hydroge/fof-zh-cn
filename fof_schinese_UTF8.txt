@@ -1,8 +1,8 @@
 // 请先保存为 UTF-16 LE 格式再复制到游戏目录当中。
-// 若不认同当前翻译，可向现行翻译之译者（Ψευδαίσθηση）提出建议、自行修改本文件、使用以前版本之翻译或使用其他语言。
+// 若对当前翻译有意见，可向现行翻译之译者（Ψευδαίσθηση）提出建议、自行修改本文件、使用以前版本之翻译或使用其他语言。
 
-// Please save this file as UTF-16 format before moving it to the folder of the game!
-// If you do not agree with the current translation, you may make a suggestion to the translator of the current translation (Ψευδαίσθηση), modify this document yourself, use a previous version of the translation, or pick another language.
+// Please save this file in UTF-16 format before moving it to the folder of the game!
+// If you disagree with the current translation, you may make a suggestion to the translator of the present translation (Ψευδαίσθηση), modify this document yourself, use a previous version of the translation, or pick another language.
 
 // Radio and chat strings can have control characters embedded to set colors.  For the control characters to be used, one must be at the start of the string.
 // 无线电和聊天字符串可以通过嵌入控制字来设置颜色。要使用控制字，其必须出现在字符串的开头。
@@ -25,13 +25,14 @@
 "Tokens" 
 { 
 
+"horse_riding_sprint"		"骑马的时候，按住 %walk% 以冲刺, 按住 %duck% 以下马。"
+
 "Item11b"						"黑弓"
 
-"FoF.Progression_Rank_Help"		"完成西部通行证以解锁游戏内的全部武器和技能。只需要在多人游戏当中击杀其他人类玩家即可升级（500罪行=1级）。\n请注意，当您的Steam账户等级不为0时，无需通行证，您可以直接使用全部武器和技能。"
+"FoF.Progression_Rank_Help"		"完成西部通行证以解锁游戏内的全部武器和技能。只需要在多人游戏当中击杀其他人类玩家即可升级（300罪行=1级）。\n请注意，当您的Steam账户等级不为0时，无需通行证，您可以直接使用全部武器和技能。"
 
 "FoF.Rank_display"				"西部通行证等级：%s1"
 
-//这句话尚未实装
 "FoF_NotEnoughRank"				"无法购买 %s1, 通行证等级需要 %s2 级。"
 
 "Hud.ProgressionLevel"			"通行证等级要求：%s1"
@@ -154,13 +155,13 @@
 
 "ADVOPTS_zoom_sens_ratio_sharps" "夏普狙击枪瞄准镜开启时的灵敏度倍数"
 
-"Help_Gentleman2"		"在你杀死敌人之前用无线电喊道「拔枪」，敌人被你死后你会获得+1罪行。在你杀死敌人之前嘲弄敌人「出来单挑！」,敌人被你拳头杀死后会获得+4罪行。如果你在和敌人「单挑」的时候用了除拳头外的其他武器对敌人造成伤害，你将会受到-5的罪行惩罚。你在使用上述技能的时候你的敌人必须在你的准星附近并且不能离你太远，如果你使用该技能成功时你的准星上会出现提示；只有手枪、左轮手枪、步枪、拳头可以使上述技能生效。\nPS：①只有手枪、左轮手枪、步枪、拳头可以使上述技能生效。②在使用「我们打平了！」技能之后，无论你用哪种方式对死之前的敌人造成伤害，只要最后符合手枪、左轮手枪、步枪、拳头来杀死敌人都可以获得+1罪行。③在「出来单挑！」使用之前，你可以用任何方式对敌人造成伤害而不影响使用之后的拳击加分。"
+"Help_Gentleman2"		"在你杀死敌人之前嘲弄敌人「拔枪/我们打平了！」，敌人被你死后你会获得+1罪行。在你杀死敌人之前嘲弄敌人「出来单挑！」,敌人被你拳头杀死后会获得+4罪行。如果你在和敌人「单挑」的时候用了除拳头外的其他武器对敌人造成伤害，你将会受到-5的罪行惩罚。你在使用上述技能的时候你的敌人必须在你的准星附近并且不能离你太远，如果你使用该技能成功时你的准星上会出现提示；只有手枪、左轮手枪、步枪、拳头可以使上述技能生效。\nPS：①只有手枪、左轮手枪、步枪、拳头可以使上述技能生效。②在使用「拔枪/我们打平了！」语音之后，无论你用哪种方式对死之前的敌人造成伤害，只要最后符合手枪、左轮手枪、步枪、拳头来杀死敌人都可以获得+1罪行。③在「出来单挑！」使用之前，你可以用任何方式对敌人造成伤害而不影响使用之后的拳击加分。"
 
 "Course_End_Completion"	"关卡完成度：%s1%"
 
 "Course_Vote_Quit"		"退出关卡"
 "Course_Vote_Next"		"下一张地图"
-"Course_Vote_New"		"选择新关卡"
+"Course_Vote_New"		"选择新难度"
 "Course_Vote_Replay"	"重玩本关卡"
 
 "Course_End_Win"		"关卡完成！"
@@ -191,7 +192,7 @@
 "challenge_melee_intro2"	"呆在桥上，直到结束挑战！"
 "challenge_melee_intro1"	"踢死10名近战敌人来完成挑战，按下 %speed% 来踢。温馨提示: 时机和预判是关键！"
 
-"challenge_dynamite_defuse"	"温馨提示 1: 红色雷管可以通过 %use% 来熄灭。2: 黑色炸药不能被熄灭，但他们能像踢火药桶一样踢回去！操作十次来完成这个挑战。"
+"challenge_dynamite_defuse"	"温馨提示 1: 红色炸藥可以通过 %use% 来熄灭。2: 黑色炸药不能被熄灭，但他们能像踢火药桶一样踢回去！操作十次来完成这个挑战。"
 
 "tut_interaction_25"	"666，你竟然做到了！恭喜"
 "tut_interaction_24"	"通过踢火药桶来处理掉那些家伙吧"
@@ -253,7 +254,7 @@
 "revolver_tut_stg3_5a"		"按 %slot2% 键来掏出左手的左轮"
 "revolver_tut_stg3_5b"		"用任一枪射击旁边的目标"
 
-"revolver_tut_stg3_4a"		"当仅使用一把左轮手枪时，右手专精技能提供比默认双持技能更好的精确度。但如果你双持，那么两把都会比「默认双持技能」精度更差"
+"revolver_tut_stg3_4a"		"当仅使用一把左轮手枪时，右手专精技能提供比双持技能更好的精确度。但如果你双持，那么两把都会比「双持技能」精度更差"
 
 "revolver_tut_stg3_3a"		"按 %slot2% 键来掏出左手的左轮。请注意，每种左轮手枪都有自己的基本准精度"
 "revolver_tut_stg3_3b"		"用任意一把枪射击靶子"
@@ -536,10 +537,10 @@
 
 "GC_Team_Number"		"团队总数"
 
-"FoF_Votekick_Hint"		"按 %votekick% 来打开投票踢出菜单"
+"FoF_Votekick_Hint"		"按 %votekick% 来打开投票封禁菜单"
 
-"FoF_Votekick_Menu"		"投票踢出菜单"
-"Votekick_player_voted"		"%s1 想要踢掉 %s2，还需要%s3 票。按 %votekick% 来跟票。"
+"FoF_Votekick_Menu"		"投票封禁菜单"
+"Votekick_player_voted"		"%s1 想要投票封禁 %s2，还需要%s3 票。按 %votekick% 来跟票。"
 
 
 
@@ -942,7 +943,7 @@
 "Alert10"	""
 
 "Taunt1"	"1. 大笑"
-"Taunt2"	"2. 拔枪/打平了"
+"Taunt2"	"2. 拔枪/我们打平了！"
 "Taunt3"	"3. 挑衅"
 "Taunt4"	"4. 吹牛"
 "Taunt5"	"5. 狼嚎"

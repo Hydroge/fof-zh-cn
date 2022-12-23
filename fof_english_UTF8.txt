@@ -12,6 +12,8 @@
 "Tokens" 
 { 
 
+"horse_riding_sprint"		"Keep %walk% pressed to gallop, keep %duck% pressed to dismount"
+
 "revolver_tut_stg2_2aa"		"There's no need to stand still to shoot accurately when 'Righthanded' revolver mode is selected. Press %attack2% key to aim your revolver and shoot at targets while moving. If your speed is too low the gate will close"
 
 "revolver_tut_stg2_2ba"		"Break the targets while moving - do not stop on red area-"
