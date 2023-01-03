@@ -12,13 +12,21 @@
 "Tokens" 
 { 
 
-"horse_riding_sprint"		"Keep %walk% pressed to gallop, keep %duck% pressed to dismount"
+"ADVOPTS_horse_freeaim"			"Activate horse's free aim mode"
 
-"revolver_tut_stg2_2aa"		"There's no need to stand still to shoot accurately when 'Righthanded' revolver mode is selected. Press %attack2% key to aim your revolver and shoot at targets while moving. If your speed is too low the gate will close"
+"FoF_Keybind_console"			"Toggle console"
 
-"revolver_tut_stg2_2ba"		"Break the targets while moving - do not stop on red area-"
+"FoF_Gallop"					"Gallop"
 
-"revolver_tut_stg2_1aa"		"Part 2, moving and shooting accurately: revolver aiming and fanning modes"
+"FoFPlayer_CantRideWarning"		"Can't ride a horse from indoor position"
+
+"horse_riding_sprint"			"Hold %walk% to gallop, hold  %duck% to dismount. Check adv. options for alternative controls"
+
+"revolver_tut_stg2_2aa"			"There's no need to stand still to shoot accurately when 'Righthanded' revolver mode is selected. Press %attack2% key to aim your revolver and shoot at targets while moving. If your speed is too low the gate will close"
+
+"revolver_tut_stg2_2ba"			"Break the targets while moving - do not stop on red area-"
+
+"revolver_tut_stg2_1aa"			"Part 2, moving and shooting accurately: revolver aiming and fanning modes"
 
 "Item11b"						"Black Bow"
 
@@ -559,7 +567,7 @@
 "intro_aim_rev_title"	"REVOLVER RELATED ACCURACY"
 
 "intro_aim_mov_3"	"3. Running or jumping trashes accuracy completely, you may miss even from very close!"
-"intro_aim_mov_2"	"2. Walking gets you enough accuracy for close quarters combat."
+"intro_aim_mov_2"	"2. Secondary revolver attack gets you enough accuracy for close quarters combat."
 "intro_aim_mov_1"	"1. Idle or duck stance grants best accuracy"
 "intro_aim_mov_title"	"MOVEMENT RELATED ACCURACY"
 
