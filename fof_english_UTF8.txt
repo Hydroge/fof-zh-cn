@@ -12,6 +12,18 @@
 "Tokens" 
 { 
 
+"Mobile_Cannon_Operator_Warning" "Only licensed cannon operators can move this weapon. Complete the tutorial!"
+
+"cm_mobile_final"				"Control the cannon by pressing %+use% on its back CENTRAL side. Aim the cannon with mouse controls, fire with %+attack%"
+
+"cm_mobile_go"					"Get the mobile cannon here"
+
+"cm_mobile_turn"				"Turn the mobile cannon left or right by standing next to the FRONT side of its wheels"
+
+"cm_mobile_intro"				"Push the mobile cannon forward by standing next to the BACK side of its wheels. Note that the more players near it the faster it goes, but only ONE certified operator can control it"
+
+"LaunchMenu2_HorseRiding"		"Horse Riding"
+
 "ADVOPTS_horse_freeaim"			"Activate horse's free aim mode"
 
 "FoF_Keybind_console"			"Toggle console"
@@ -39,7 +51,7 @@
 "Hud.ProgressionLevel"			"FM rank required: %s1"
 
 "Item23e"						"Jumpmaster"
-"Help_Walljump"					"Some impulse is gained when performing a wall-jump, look into any direction before wall-jumping to redirect that impulse. A kick inflicted mid-air after wall-jumping will deal considerably more damage. Fall damage is decreased noticeably"
+"Help_Walljump"					"Some impulse is gained when performing a wall-jump, only works while ascending! Look into any direction before wall-jumping to redirect that impulse. A kick inflicted mid-air after wall-jumping will deal considerably more damage. Fall damage is decreased noticeably"
 
 "Help_Slide"					"Maintain high speed for a while and then press crouch key %+duck% for a slide. Certain large weapons or carriying many small weapons may stop you from gaining enough speed. Handguns draw faster while sliding and its accuracy is same as standing still. Melee weapons get a small damage bonus when sliding"
 
