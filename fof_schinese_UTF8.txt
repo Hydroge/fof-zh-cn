@@ -25,13 +25,44 @@
 "Tokens" 
 { 
 
+"cm_mov_tut_6_obj"				"来一个踢墙跳，再踢西瓜"	
+"cm_mov_tut_6"					"踢墙跳之后再踢腿可以造成更高伤害（+15），且敌人难以反击"
+
+"cm_mov_tut_5_obj"				"跳跃，然后在空中按 %speed% 以踢腿"
+"cm_mov_tut_5"					"跳踢是一个很重要的战斗技巧. 在跳跃的同时踢到西瓜"
+
+"cm_mov_tut_4_obj"				"朝着木墙跳跃，然后在墙壁上再跳跃以到达对面. 注意不要掉下去"	
+"cm_mov_tut_4"					"「蹬墙跳」技能能让玩家进行更远距离的踢墙跳. 该技能可以用于出其不意地接近敌人、防止被角落的敌人暗算以及跳过大距离"
+
+"cm_mov_tut_3_obj"				"靠近障碍物的时候，在跳跃到最高点时，再次按 %jump% 来进行「踢墙跳」"	
+"cm_mov_tut_3"					"靠近障碍物的时候按两次跳跃键可以跳过高的障碍物，注意不要按得太快"
+
+"cm_mov_tut_2_obj"				"按 %jump% 来跳过一般的障碍"	
+
+"cm_mov_tut_1_hint2"			"开始滑铲"
+"cm_mov_tut_1_hint1"			"跑到这里来"
+
+"cm_mov_tut_1_obj"				"跑一段时间，然后按 %duck% 来滑过前面的大门"	
+"cm_mov_tut_1"					"下一个大门很快就会关上. 「滑铲」技能能够让你在足够的时间之内穿过这个大门"
+
+"cm_mov_tut_intro"				"按 %duck% 来蹲下通过这个大门"
+
+"ACHIEVEMENT_MOBILE_CANNON_OPERATOR2_NAME" 		"移动大炮资格证"
+"ACHIEVEMENT_MOBILE_CANNON_OPERATOR2_DESC" 		"完成可移动大炮操作教程"
+
+"ACHIEVEMENT_SLIDING_KILLER_NAME" 		"滑行杀手"
+"ACHIEVEMENT_SLIDING_KILLER_DESC" 		"在滑行时杀死25名敌人"
+
+"ACHIEVEMENT_BOUNCING_AROUND_NAME" 		"武术家"
+"ACHIEVEMENT_BOUNCING_AROUND_DESC" 		"使用踢墙跳杀死25名敌人"
+
 "Mobile_Cannon_Operator_Warning" "只有获取大炮操作资格证才能移动该炮台，详情可见教程第二关"
 
 "cm_mobile_final"				"在大炮正后方按 %+use% 来操控大炮. 使用鼠标瞄准，按 %+attack% 发射"
 
 "cm_mobile_go"					"将大炮推到这儿"
 
-"cm_mobile_turn"				"站在大炮左右轮子的正前方，可以转动大炮"
+"cm_mobile_turn"				"站在大炮左右侧按 %+walk% ，可以转动大炮"
 
 "cm_mobile_intro"				"站在大炮左右轮子的正后方可以推动大炮. 注意，大炮附近玩家越多，大炮能推得更快，但同时只能有一个拥有大炮操作资格证的玩家可以控制该大炮"
 

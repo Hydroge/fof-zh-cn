@@ -12,13 +12,45 @@
 "Tokens" 
 { 
 
+"cm_mov_tut_6_obj"				"Perform a wall-jump before kicking the watermelon"	
+"cm_mov_tut_6"					"A kick right after a wall-jump deals more damage and can't be countered easily by enemies"
+
+"cm_mov_tut_5_obj"				"Jump and press %speed% to kick while in air"
+"cm_mov_tut_5"					"Jump-kicking is a key combat skill. Kick the watermelon while jumping"
+
+"cm_mov_tut_4_obj"				"Jump towards a wooden wall and then jump again before falling to reach the other side"	
+"cm_mov_tut_4"					"'Jumpmaster' perk allows longer distance wall-jump. This is useful to approach enemies in unexpected ways, avoid getting cornered or jumping large distances"
+
+"cm_mov_tut_3_obj"				"Press %jump% again at the top height near the obstacle to 'wall-jump'"	
+"cm_mov_tut_3"					"Jump over tall obstacles by pressing jump key a second time"
+
+"cm_mov_tut_2_obj"				"Jump over normal obstacles by pressing %jump%"	
+
+"cm_mov_tut_1_hint2"			"start sliding"
+"cm_mov_tut_1_hint1"			"start to run here"
+
+"cm_mov_tut_1_obj"				"Run for a while and then press %duck% to slide across the gate"	
+"cm_mov_tut_1"					"The next gate will close unless you get into fast. The 'slide' perk allows you to do that"
+
+"cm_mov_tut_intro"				"Press %duck% to crouch down the gate"
+
+"ACHIEVEMENT_MOBILE_CANNON_OPERATOR2_NAME" 		"Certified mobile cannon operator"
+"ACHIEVEMENT_MOBILE_CANNON_OPERATOR2_DESC" 		"Complete the mobile cannon tutorial"
+
+"ACHIEVEMENT_SLIDING_KILLER_NAME" 		"Sliding killer"
+"ACHIEVEMENT_SLIDING_KILLER_DESC" 		"Kill 25 enemies while sliding"
+
+"ACHIEVEMENT_BOUNCING_AROUND_NAME" 		"Bouncing around"
+"ACHIEVEMENT_BOUNCING_AROUND_DESC" 		"Kill 25 enemies by kick right after wall-jumping"
+
+
 "Mobile_Cannon_Operator_Warning" "Only licensed cannon operators can move this weapon. Complete the tutorial!"
 
 "cm_mobile_final"				"Control the cannon by pressing %+use% on its back CENTRAL side. Aim the cannon with mouse controls, fire with %+attack%"
 
 "cm_mobile_go"					"Get the mobile cannon here"
 
-"cm_mobile_turn"				"Turn the mobile cannon left or right by standing next to the FRONT side of its wheels"
+"cm_mobile_turn"				"Turn the mobile cannon by pressing %+walk% while standing at left or right sides"
 
 "cm_mobile_intro"				"Push the mobile cannon forward by standing next to the BACK side of its wheels. Note that the more players near it the faster it goes, but only ONE certified operator can control it"
 
